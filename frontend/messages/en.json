@@ -1,0 +1,16 @@
+{
+  "Home": {
+    "Monja1": "Mentaiko Mochi Monja",
+    "description1": "The fresh cream perfectly complements the delicious flavor of mentaiko in this No.1 favorite monjayaki! Add mozzarella cheese  as a topping to enhance the taste and make it even more  delicious!"
+  },
+  "Step1": {
+    "title": "Step 1 Title",
+    "EXPLANATION_PARAGRAPH1": "lorem ipsum"
+  },
+  "Step2": {
+    "title": "Step 2 Title",
+    "EXPLANATION_PARAGRAPH1": "lorem ipsum",
+    "EXPLANATION_PARAGRAPH2": "lorem ipsum",
+    "EXPLANATION_PARAGRAPH3": "lorem ipsum"
+  }
+}

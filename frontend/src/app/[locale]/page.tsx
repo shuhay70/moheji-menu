@@ -1,0 +1,19 @@
+// "use client";
+import { useTranslations } from "next-intl"; // declare this import
+
+export default function HomePage() {
+  const t = useTranslations("Home"); // declare the hook passing into parameter a context name
+
+  return (
+    <main
+      className="pt-[200px] h-screen" // ヘッダーの高さに応じたパディングと全高に設定
+      style={{
+        backgroundImage: "url('/image/backimg1.jpg')", // メインの背景画像
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <h1>{t("Monja1")}</h1> // Call the hook by passing as parameter the
+    </main>
+  );
+}

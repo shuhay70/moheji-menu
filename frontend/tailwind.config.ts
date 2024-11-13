@@ -11,9 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        headercolor: "#0D3858",
+        headercolor2: "#092137",
+        footercolor: "#0D3657",
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui"), require("tailwind-scrollbar")],
 };
 export default config;
