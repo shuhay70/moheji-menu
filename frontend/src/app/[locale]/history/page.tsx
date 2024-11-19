@@ -1,26 +1,16 @@
-// "use client";
-
-// import Menubar from "../locale/components/Menubar";
 import Head from "next/head";
 import Link from "next/link";
-import { useTranslations } from "next-intl"; // declare this import
+import { useTranslations } from "next-intl";
 
 export default function HomePage() {
   const t = useTranslations("History");
 
   return (
-    <main
-
-    // style={{
-    //   backgroundImage: "url('/image/backimg1.jpg')", // メインの背景画像
-    //   backgroundSize: "cover",
-    //   backgroundPosition: "center",
-    // }}
-    >
+    <main>
       <div
         className="scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll  bg-white"
         style={{
-          backgroundImage: "url('/image/backimg1.jpg')", // メインの背景画像
+          backgroundImage: "url('/image/backimg1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -80,5 +70,3 @@ export default function HomePage() {
     </main>
   );
 }
-
-// export default page;

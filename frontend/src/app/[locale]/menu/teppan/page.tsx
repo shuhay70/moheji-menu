@@ -9,7 +9,7 @@ export default function HomePage() {
       <div
         className="scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll bg-white"
         style={{
-          backgroundImage: "url('/image/backimg1.jpg')", // メインの背景画像
+          backgroundImage: "url('/image/backimg1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -247,5 +247,3 @@ export default function HomePage() {
     </main>
   );
 }
-
-// export default page;

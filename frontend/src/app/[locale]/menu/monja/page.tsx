@@ -1,10 +1,6 @@
-// "use client";
-
 import Menubar from "../../components/Menubar";
 
 import { useTranslations } from "next-intl";
-
-// import LanguageSwitcher from "../../components/LanguageSwitcher";
 
 export default function HomePage() {
   const t = useTranslations("Monja");
@@ -14,7 +10,7 @@ export default function HomePage() {
       <div
         className="scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll  bg-white "
         style={{
-          backgroundImage: "url('/image/backimg1.jpg')", // メインの背景画像
+          backgroundImage: "url('/image/backimg1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
