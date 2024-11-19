@@ -1,10 +1,9 @@
-"use client";
-
 import Menubar from "../../components/Menubar";
-import Head from "next/head";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-const page = () => {
+export default function HomePage() {
+  const t = useTranslations("Teppan");
+
   return (
     <main>
       <div
@@ -18,252 +17,228 @@ const page = () => {
         <Menubar />
         <div className="w-[80%] bg-white p-[25px] pb-[25px] mb-[30px] mx-auto">
           <div className="font-bold flex justify-center  text-[20px]">
-            ＜逸品＞
+            {t("title111")}
           </div>
           <div className="border-t border-yellow-700 lg:my-4"></div>
           <div className="lg:flex lg:justify-between">
-            <div className="lg:w-[320px]  px-[6px]">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">青唐醤油漬け</p>
-                <p>1500円</p>
+            <div className="lg:w-[320px] w-full lg:px-[6px]">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px] justify-between w-full">
+                <p className="font-bold w-[67%]"> {t("title1")}</p>
+                <p className="w-[28%]">{t("price1")}</p>
               </div>
               <div className="flex">
-                <p>具材：キャベツ、天かす、桜えび、卵、天生地、豚</p>
+                <p>{t("ingredients1")}</p>
               </div>
             </div>
-            <div className="lg:w-[350px] px-[6px]">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">力士肉味噌きゅうり</p>
-                <p>1500円</p>
+            <div className="lg:w-[350px] lg:px-[6px]">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold  w-[67%]"> {t("title2")}</p>
+                <p className="w-[28%]">{t("price2")}</p>
               </div>
               <div className="flex">
-                <p>
-                  具材：キャベツ、天かす、桜えび、卵、天生地、えび、タコ、ホタテ、いか、げそ
-                </p>
+                <p>{t("ingredients2")} </p>
               </div>
             </div>
-            <div className="lg:w-[350px]  px-[6px] ">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold lg:w-auto w-[170px]">
-                  たたききゅうりの梅わさび和え
-                </p>
-                <p className="lg:w-auto w-[60px]">1500円</p>
+            <div className="lg:w-[350px]  lg:px-[6px] ">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%]">{t("title3")}</p>
+                <p className="lg:w-auto w-[28%]">{t("price3")}</p>
               </div>
               <div className="flex">
-                <p>
-                  具材：
-                  キャベツ、天かす、桜えび、卵、天生地、牛すじ、ごぼう、こんにゃく、
-                </p>
+                <p>{t("ingredients3")}</p>
               </div>
             </div>
           </div>
           <div className="lg:flex lg:justify-between lg:pt-[50px]">
-            <div className="lg:w-[350px]  px-[6px]">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">キムチ</p>
-                <p>1500円</p>
+            <div className="lg:w-[350px]  lg:px-[6px]">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%]"> {t("title4")}</p>
+                <p className="w-[28%]">{t("price4")}</p>
               </div>
               <div className="flex">
-                <p>
-                  具材：キャベツ、天かす、桜えび、卵、天生地、豚、牛すじ、イカ、
-                </p>
+                <p>{t("ingredients4")}</p>
               </div>
             </div>
-            <div className="lg:w-[350px] px-[6px]">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">チャンジャ</p>
-                <p>1500円</p>
+            <div className="lg:w-[350px] lg:px-[6px]">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%]"> {t("title5")}</p>
+                <p className="w-[28%]">{t("price5")}</p>
               </div>
               <div className="flex">
-                <p>具材：キャベツ、天かす、桜えび、卵、天生地、麺、豚、</p>
+                <p>{t("ingredients5")}</p>
               </div>
             </div>
-            <div className="lg:w-[350px]  px-[6px] ">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">炙り明太子</p>
-                <p>1500円</p>
+            <div className="lg:w-[350px]  lg:px-[6px] ">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%]"> {t("title6")}</p>
+                <p className="w-[28%]">{t("price6")}</p>
               </div>
               <div className="flex">
-                <p>具材： キャベツ、天かす、桜えび、卵、天生地、</p>
+                <p>{t("ingredients6")}</p>
               </div>
             </div>
           </div>
           <div className="lg:flex lg:justify-between lg:pt-[50px]">
-            <div className="lg:w-[350px]  px-[6px]">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">こぼれしらす冷奴</p>
-                <p>1500円</p>
+            <div className="lg:w-[350px]  lg:px-[6px]">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%]"> {t("title7")}</p>
+                <p className="w-[28%]">{t("price7")}</p>
               </div>
               <div className="flex">
-                <p>
-                  具材：キャベツ、天かす、桜えび、卵、天生地、豚、牛すじ、イカ、
-                </p>
+                <p>{t("ingredients7")}</p>
               </div>
             </div>
-            <div className="lg:w-[350px] px-[6px]">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">もずくとろろ</p>
-                <p>1500円</p>
+            <div className="lg:w-[350px] lg:px-[6px]">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%]"> {t("title8")}</p>
+                <p className="w-[28%]">{t("price8")}</p>
               </div>
               <div className="flex">
-                <p>具材：キャベツ、天かす、桜えび、卵、天生地、麺、豚、</p>
+                <p>{t("ingredients8")}</p>
               </div>
             </div>
-            <div className="lg:w-[350px]  px-[6px] ">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">和牛すじ煮</p>
-                <p>1500円</p>
+            <div className="lg:w-[350px]  lg:px-[6px] ">
+              <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%]"> {t("title9")}</p>
+                <p className="w-[28%]">{t("price9")}</p>
               </div>
               <div className="flex">
-                <p>具材： キャベツ、天かす、桜えび、卵、天生地、</p>
+                <p>{t("ingredients9")}</p>
               </div>
             </div>
           </div>
           <div className="lg:flex lg:justify-between lg:pt-[50px]">
-            <div className="lg:w-[350px]  px-[6px]">
-              <div className="flex justify-between pb-[10px] pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold lg:w-auto w-[170px]">
-                  冷やしトマトと玉ねぎサラダ
+            <div className="lg:w-[350px]  lg:px-[6px]">
+              <div className="flex justify-between pb-[10px]lg:pr-[10px] lg:pt-[0px] pt-[20px]">
+                <p className="font-bold w-[67%] lg:w-auto w-[170px]">
+                  {t("title10")}
                 </p>
-                <p className="lg:w-auto w-[60px] ">1500円</p>
+                <p className="w-[28%]">{t("price10")}</p>
               </div>
               <div className="flex">
-                <p>
-                  具材：キャベツ、天かす、桜えび、卵、天生地、豚、牛すじ、イカ、
-                </p>
+                <p>{t("ingredients10")} </p>
               </div>
             </div>
           </div>
-          <div className="font-bold flex justify-center pt-[90px]  text-[20px]">
-            ＜鉄板焼き＞
+          <div className="font-bold flex justify-center  lg:pt-[0px} pt-[70px] text-[20px]">
+            {t("title222")}{" "}
           </div>
           <div className="border-t border-yellow-700 lg:my-4"></div>
           <div className="lg:flex  lg:justify-between">
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px]">
               <div className="flex justify-between  lg:w-[300px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold">にんにくホイル焼き</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title11")}</p>
+                <p className="w-[28%]">{t("price11")}</p>
               </div>
               <div className="flex">
-                <p>具材： にんにく、ごま油、</p>
+                <p>{t("ingredients11")}</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[0px] pt-[20px]">
               <div className="flex justify-between ">
-                <p className="font-bold">塩辛じゃがバター</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title12")}</p>
+                <p className="w-[28%]">{t("price12")}</p>
               </div>
               <div className="flex">
-                <p>具材： 塩辛、ジャガイモ、バター</p>
+                <p>{t("ingredients12")}</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[0px] pt-[20px]">
               <div className="flex justify-between">
-                <p className="font-bold">げそ焼き</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title13")}</p>
+                <p className="w-[28%]">{t("price13")}</p>
               </div>
               <div className="flex">
-                <p>具材： イカゲソ、もやし、バター</p>
+                <p>{t("ingredients13")}</p>
               </div>
             </div>
           </div>
           <div className="lg:flex ">
             <div className="lg:flex lg:flex-col lg:w-[350px] lg:px-[6px] lg:pt-[50px] lg:mr-[28px] pt-[20px]">
               <div className="flex justify-between ">
-                <p className="font-bold">きの子盛りバター</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title14")}</p>
+                <p className="w-[28%]">{t("price14")}</p>
               </div>
               <div className="flex">
-                <p>具材： えのき、しめじ、しいたけ、バター</p>
+                <p>{t("ingredients14")}</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] pt-[20px]">
               <div className="flex justify-between ">
-                <p className="font-bold">鳥軟骨焼き</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title15")}</p>
+                <p className="w-[28%]">{t("price15")}</p>
               </div>
               <div className="flex">
-                <p>具材：鳥軟骨（ヒザ軟骨・ヤゲン軟骨）、もやし、</p>
+                <p>{t("ingredients15")}</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-col lg:w-[390px]  lg:pr-[6px] lg:pt-[50px]  lg:pl-[40px] pt-[20px]">
               <div className="flex justify-between">
-                <p className="font-bold">鳥もも焼き</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title16")}</p>
+                <p className="w-[28%]">{t("price16")}</p>
               </div>
               <div className="flex">
-                <p>具材： 鳥もも、長ネギ</p>
+                <p>{t("ingredients16")}</p>
               </div>
             </div>
           </div>
           <div className="lg:flex ">
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] lg:mr-[28px] pt-[20px]">
               <div className="flex justify-between ">
-                <p className="font-bold">鳥せせり焼き</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title17")}</p>
+                <p className="w-[28%]">{t("price17")}</p>
               </div>
               <div className="lg:flex">
-                <p>具材：鳥せせり、もやし、大根おろし</p>
+                <p>{t("ingredients17")}</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] pt-[20px]">
               <div className="flex justify-between ">
-                <p className="font-bold">とん平焼き</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title18")}</p>
+                <p className="w-[28%]">{t("price18")}</p>
               </div>
               <div className="flex">
-                <p>具材： 豚、天かす、桜えび、九条ネギ、卵</p>
+                <p>{t("ingredients18")}</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-col lg:w-[390px]  lg:pr-[6px] lg:pt-[50px]  lg:pl-[40px] pt-[20px]">
               <div className="flex justify-between">
-                <p className="font-bold lg:w-auto w-[200px]">
-                  カジキマグロのガーリックステーキ
+                <p className="font-bold w-[67%] lg:w-auto w-[200px]">
+                  {t("title19")}
                 </p>
-                <p>1280円</p>
+                <p className="w-[28%]">{t("price19")}</p>
               </div>
               <div className="flex">
-                <p>具材： カジキマグロ、もやし、にんにく、大根おろし</p>
+                <p>{t("ingredients19")}</p>
               </div>
             </div>
           </div>
           <div className="lg:flex ">
-            <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] lg:mr-[28px] pt-[20px]">
+            <div className="lg:flex lg:flex-collg:w-[390px] lg:pr-[6px] lg:pt-[50px] lg:pl-[40px] pt-[20px]">
               <div className="flex justify-between ">
-                <div className="flex">
-                  <p className="font-bold">海鮮アヒージョ</p>
-                  <p className="font-bold text-[12px] pt-[5px]">
-                    （バケット付き）
-                  </p>
-                </div>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title20")}</p>
+                <p className="w-[28%]">{t("price20")}</p>
               </div>
               <div className="flex">
-                <p>
-                  具材：イカ、エビ、タコ、ホタテ、チャンジャ、鷹の爪、長ネギ、にんにく、バター、オリーブオイル
-                </p>
-              </div>
-            </div>
-            <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] pt-[20px]">
-              <div className="flex justify-between">
-                <div className="flex">
-                  <p className="font-bold lg:text-[14px] text-[13px]">
-                    明太子しいたけアヒージョ
-                  </p>
-                  <p className="font-bold lg:text-[12px] text-[8px] pt-[4px]">
-                    （バケット付き）
-                  </p>
-                </div>
-                <p>1280円</p>
-              </div>
-              <div className="flex">
-                <p>具材：明太子、しいたけ、にんにく、バター、オリーブオイル</p>
+                <p>{t("ingredients20")}</p>
               </div>
             </div>
             <div className="lg:flex lg:flex-collg:w-[390px] lg:pr-[6px] lg:pt-[50px] lg:pl-[40px] pt-[20px]">
               <div className="flex justify-between ">
-                <p className="font-bold">追加バケット（４つ）</p>
-                <p>1280円</p>
+                <p className="font-bold w-[67%]"> {t("title21")}</p>
+                <p className="w-[28%]">{t("price21")}</p>
+              </div>
+              <div className="flex">
+                <p>{t("ingredients21")}</p>
+              </div>
+            </div>
+            <div className="lg:flex lg:flex-collg:w-[390px] lg:pr-[6px] lg:pt-[50px] lg:pl-[40px] pt-[20px]">
+              <div className="flex justify-between ">
+                <p className="font-bold w-[67%]"> {t("title22")}</p>
+                <p className="w-[28%]">{t("price22")}</p>
+              </div>
+              <div className="flex">
+                <p>{t("ingredients22")}</p>
               </div>
             </div>
           </div>
@@ -271,6 +246,6 @@ const page = () => {
       </div>{" "}
     </main>
   );
-};
+}
 
-export default page;
+// export default page;

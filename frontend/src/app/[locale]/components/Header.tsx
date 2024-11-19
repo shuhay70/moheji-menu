@@ -1,27 +1,21 @@
-"use client";
+// "use client";
 
 import React from "react";
-import { useRouter } from "next/navigation";
-import Head from "next/head";
+// import { useRouter } from "next/navigation";
+// import Head from "next/head";
 import Image from "next/image";
 // import Link from "next/link";
 import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
-// export default function IndexPage(props) {
-//   return (
-//     <Link href="/another" locale="fr">
-//       To /fr/another
-//     </Link>
-//   );
-// }
+export default function HomePage() {
+  const t = useTranslations("Header");
+  // const router = useRouter();
 
-const Header = () => {
-  const router = useRouter();
-
-  const handleClickHeader = () => {
-    router.push("/header");
-    // alert("Menu button clicked!");
-  };
+  // const handleClickHeader = () => {
+  //   router.push("/header");
+  // alert("Menu button clicked!");
+  // };
   return (
     <>
       {/* bg-headercolorはtailwind.config.tsで自分で作った変数。 */}
@@ -38,7 +32,7 @@ const Header = () => {
               alt="Logo"
             ></Image>
             <h1 className="text-white lg:text-[10px] lg:pt-[8px] lg:pl-[8px] text-[0px]">
-              東京文化を世界へ
+              {t("title")}
             </h1>
           </div>
           <div className="flex justify-items-center">
@@ -116,9 +110,9 @@ const Header = () => {
               // altはsrcに来るものの名前にする
               alt="Logo"
             ></Image>
-            <h1 className="text-white text-[10px] lg:pt-[8px] lg:pl-[8px] ">
-              東京文化を世界へ
-            </h1>
+            {/* <h1 className="text-white text-[10px] lg:pt-[8px] lg:pl-[8px] ">
+              {t("title")}
+            </h1> */}
           </div>
           <div className="flex">
             <div className="flex">
@@ -126,32 +120,32 @@ const Header = () => {
                 <div
                   tabIndex={0}
                   role="button"
-                  className="btn m-1 w-[45px] text-[8px] mt-[8px]"
+                  className="btn m-1 w-[75px] text-[8px] mt-[8px]"
                 >
-                  Click
+                  {t("button1")}
                 </div>
                 <ul
                   tabIndex={0}
-                  className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[80px] h-[200px] p-2 shadow"
+                  className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[220px] p-2 shadow"
                 >
                   <div className="flex ">
                     <div className="flex flex-col justify-items-center">
                       <div className="lg:p-4 lg:w-[110px] flex items-center justify-center  lg:py-[0px] py-[8px] ">
                         {/*元々、useRouterを使っていたが<Link>の方が簡単。  */}
                         <Link className="text-black" href="/">
-                          トップ
+                          {t("button10")}
                         </Link>
                       </div>
                       <div className="flex border-l border-black lg:h-[35px] lg:mt-[10px]" />
                       <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] ">
-                        <Link className="text-black" href="menu/monja">
-                          お品書き
+                        <Link className="text-black" href="/menu/monja">
+                          {t("button11")}
                         </Link>
                       </div>
                       <div className="border-l  border-black lg:h-[35px] lg:mt-[10px]" />
-                      <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] ">
+                      <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] lg:pl-[0px] pl-[10px] ">
                         <Link className="text-black" href="/history">
-                          歴史
+                          {t("button12")}
                         </Link>
                       </div>
                       <div className="border-l  border-black lg:h-[35px] lg:mt-[10px]" />
@@ -160,16 +154,16 @@ const Header = () => {
                           className="text-black"
                           href="https://kano-corp.tokyo/shop/"
                         >
-                          アクセス
+                          {t("button13")}
                         </Link>
                       </div>
                       <div className="border-l  border-black  lg:h-[35px] lg:mt-[10px]" />
-                      <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] ">
+                      <div className="lg:p-4 lg:w-[110px] flex items-center justify-center pt-[8px]">
                         <Link
                           className="text-black"
                           href="https://tabelog.com/tokyo/A1313/A131302/13186205/"
                         >
-                          ご予約
+                          {t("button14")}
                         </Link>
                       </div>
                     </div>
@@ -181,13 +175,13 @@ const Header = () => {
                 <div
                   tabIndex={0}
                   role="button"
-                  className="btn m-1 w-[45px] text-[8px] mt-[8px]"
+                  className="btn m-1 w-[75px] text-[8px] mt-[8px]"
                 >
-                  Language
+                  {t("button2")}
                 </div>
                 <ul
                   tabIndex={0}
-                  className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[80px] h-[55px] p-2 shadow"
+                  className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[55px] p-2 shadow"
                 >
                   <div className="lg:pt-[7px]">
                     <Link
@@ -195,7 +189,7 @@ const Header = () => {
                       href="/"
                       locale="ja"
                     >
-                      日本語
+                      {t("button22")}
                     </Link>
 
                     <Link
@@ -203,7 +197,7 @@ const Header = () => {
                       href="/"
                       locale="en"
                     >
-                      English
+                      {t("button21")}
                     </Link>
                   </div>
                 </ul>
@@ -214,6 +208,6 @@ const Header = () => {
       </header>
     </>
   );
-};
+}
 
-export default Header;
+// export default Header;

@@ -1,63 +1,67 @@
-"use client";
+// "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
-const Menubar = () => {
+export default function HomePage() {
+  const t = useTranslations("Menubar");
+
   return (
     <div className="mx-auto w-[80%]">
       <div className="flex justify-center bg-white  lg:px-[10px] lg:pb-[30px] lg:pt-[30px] mt-[70px]  mt-[20px] lg:p-[5px] py-[5px] px-[1px]">
-        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[50px]">
+        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[14%]">
           <Link
             className="flex justify-center items-center  lg:text-[20px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px] mx-[2px] text-[7px] h-[25px]"
             href="/menu/monja"
           >
-            もんじゃ
+            {t("title1")}
           </Link>
         </div>
-        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[50px]">
+        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[14%]">
           <Link
-            className=" flex justify-center items-center lg:text-[20px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px]  mx-[2px] text-[7px] h-[25px]"
+            className="flex justify-center items-center  lg:text-[20px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px] mx-[2px] text-[7px] h-[25px]"
             href="/menu/season"
           >
-            季節のオススメ
+            {t("title2")}
           </Link>
         </div>
-        <div className="lg:flex lg:w-[180px] lg:items-center lg:justify-center w-[50px]">
+        <div className="lg:flex lg:w-[180px] lg:items-center lg:justify-center w-[20%]">
           <Link
             className="flex flex-col justify-center items-center  lg:text-[15px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px]  mx-[2px] text-[7px] h-[25px]"
             href="/menu/okonomiyaki"
           >
-            お好み焼き・麺・ご飯
+            {t("title3")}
           </Link>
         </div>
-        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[50px]">
+        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[14%]">
           <Link
             className="flex flex-col justify-center items-center  lg:text-[15px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px]  mx-[2px] text-[7px] h-[25px]"
             href="/menu/topping"
           >
-            トッピング
+            {t("title4")}
           </Link>
         </div>
-        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[50px]">
+        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[19%]">
           <Link
             className="flex flex-col justify-center items-center  lg:text-[15px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px]  mx-[2px] text-[7px] h-[25px]"
             href="/menu/teppan"
           >
-            鉄板焼き・逸品
+            {t("title5")}
           </Link>
         </div>
-        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[50px]">
+        <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[14%]">
           <Link
             className="flex flex-col justify-center items-center  lg:text-[15px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px]  mx-[2px] text-[7px] h-[25px]"
             href="/menu/drink"
           >
-            ドリンク・デザート
+            {t("title6")}
           </Link>
         </div>
       </div>
     </div>
   );
-};
+}
 
-export default Menubar;
+// export default Menubar;

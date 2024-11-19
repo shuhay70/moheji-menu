@@ -1,10 +1,14 @@
-"use client";
+// "use client";
 
 import Menubar from "../../components/Menubar";
-import Head from "next/head";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-const page = () => {
+// import Head from "next/head";
+// import Link from "next/link";
+
+export default function HomePage() {
+  const t = useTranslations("Season");
+
   return (
     <main
 
@@ -32,14 +36,11 @@ const page = () => {
             />
             <div>
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                イカの丸焼き
+                {t("title1")}
               </p>
+              <p className="pb-[15px]"> {t("price1")}</p>
               <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
-                いかの丸焼き肝バター。
-                豊洲市場直送のするめいかを肝ごと一緒に焼き上げ、
-                バターを纏わせて仕上げます。
-                濃厚な肝のコクが、憎くなるほどビールと相性抜群なんです。
-                いかのプリっとした食感と、鉄板で少し焦げたバターの風味もお楽しみください。
+                {t("title2")}
               </p>
             </div>
             <div className="lg:flex">
@@ -51,16 +52,12 @@ const page = () => {
               <div>
                 <div className="flex justify-between"></div>
                 <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                  牡蠣のバター焼き
+                  {t("title3")}
                 </p>
-                <p>1850円</p>
+                <p className="pb-[15px]"> {t("price2")}</p>
 
                 <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
-                  毎年冬になると、 この牡蠣と白子を目当てに
-                  お越しいただくお客様もいるほど 人気の一品！
-                  市場で目利きが厳選したものを毎朝お店に直送しております。
-                  ぷりぷりで旨みが濃厚な牡蠣、
-                  もへじでしか味わえない冬の味覚をどうぞ召し上がり下さい！
+                  {t("title4")}
                 </p>
               </div>
             </div>
@@ -75,14 +72,11 @@ const page = () => {
               />
               <div>
                 <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                  イカの丸焼き
+                  {t("title1")}
                 </p>
+                <p className="pb-[15px]"> {t("price3")}</p>
                 <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
-                  いかの丸焼き肝バター。
-                  豊洲市場直送のするめいかを肝ごと一緒に焼き上げ、
-                  バターを纏わせて仕上げます。
-                  濃厚な肝のコクが、憎くなるほどビールと相性抜群なんです。
-                  いかのプリっとした食感も、鉄板で少し焦げたバターの風味も。
+                  {t("title2")}
                 </p>
               </div>
             </div>
@@ -94,14 +88,11 @@ const page = () => {
               />
               <div>
                 <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                  牡蠣のバター焼き
+                  {t("title3")}
                 </p>
+                <p className="pb-[15px]"> {t("price4")}</p>
                 <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
-                  毎年冬になると、 この牡蠣と白子を目当てに
-                  お越しいただくお客様もいるほど 人気の一品！
-                  市場で目利きが厳選したものを毎朝お店に直送しております。
-                  ぷりぷりで旨みが濃厚な牡蠣、
-                  もへじでしか味わえない冬の味覚をどうぞ召し上がり下さい！
+                  {t("title4")}
                 </p>
               </div>
             </div>
@@ -112,6 +103,6 @@ const page = () => {
       {/* <p className="bg-white lg:ml-[150px] lg:mr-[138px] lg:p-[30px] mr-[40px] p-[20px]  w-[80%]"></p> */}
     </main>
   );
-};
+}
 
-export default page;
+// export default page;

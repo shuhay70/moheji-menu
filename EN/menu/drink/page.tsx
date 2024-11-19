@@ -357,14 +357,14 @@ const page = () => {
                   <p className="font-bold lg:text-[15px] text-[10px] lg:pt-[0px] pt-[5px]">
                     （Vanilla・Matcha）
                   </p>
-                  <p className="font-bold">黒蜜きなこアイス</p>
+                  {/* <p className="font-bold">黒蜜きなこアイス</p> */}
                 </div>
                 <p>560円yen</p>
               </div>
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
                   <p>Red Bean Paste Roll</p>
-                  <p className="font-bold">あんこ巻き</p>
+                  {/* <p className="font-bold">あんこ巻き</p> */}
                   <p>560円yen</p>
                 </div>
                 <p className="text-[12px] pt-[5px]">
@@ -378,7 +378,7 @@ const page = () => {
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
                   <p>Matcha Red Bean Paste Roll</p>
-                  <p className="font-bold">抹茶あんこ巻き</p>
+                  {/* <p className="font-bold">抹茶あんこ巻き</p> */}
                   <p>560円yen</p>
                 </div>
                 <p className="text-[12px] pt-[5px]">
@@ -396,7 +396,7 @@ const page = () => {
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
                   <p>Rice cake with red bean paste</p>
-                  <p className="font-bold">鉄板あんこもち</p>
+                  {/* <p className="font-bold">鉄板あんこもち</p> */}
                   <p>560円yen</p>
                 </div>
                 <p className="text-[12px] pt-[5px]">
@@ -409,7 +409,7 @@ const page = () => {
                   <p className="font-bold lg:text-[15px] text-[10px] lg:pt-[0px] pt-[5px]">
                     （Vanilla・Matcha）
                   </p>
-                  <p className="font-bold">トッピングアイス</p>
+                  {/* <p className="font-bold">トッピングアイス</p> */}
                 </div>
                 <p>560円yen</p>
               </div>
