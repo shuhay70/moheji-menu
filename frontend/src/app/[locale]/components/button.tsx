@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 
 const LanguageSwitcher = () => {
-  const { t } = useTranslation("common"); // 'common'は使用するnamespace
+  const { t } = useTranslation("common");
   const router = useRouter();
 
   const changeLanguage = () => {

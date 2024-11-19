@@ -9,7 +9,7 @@ export default function HomePage() {
       <div
         className="scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll bg-white"
         style={{
-          backgroundImage: "url('/image/backimg1.jpg')", // メインの背景画像
+          backgroundImage: "url('/image/backimg1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -210,9 +210,6 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      {/* <p className="bg-white lg:ml-[150px] lg:mr-[138px] lg:p-[30px] mr-[40px] p-[20px]  w-[80%]"></p> */}
     </main>
   );
 }
-
-// export default page;

@@ -4,20 +4,16 @@ import { useTranslations } from "next-intl";
 
 export default function Footer() {
   const t = useTranslations("Footer");
-  // const Footer = () => {
 
   return (
     <footer className="flex justify-center lg:w-full bg-footercolor lg:p-2 lg:h-[350px] overflow-hidden">
-      {/* <footer className="flex justify-between lg:w-full bg-footercolor lg:p-2  lg:h-[350px] w-[390px] pl-[52px]"> */}
       <div className="lg:flex">
         <div className="flex items-center justify-center">
           <Image
             className=" lg:pl-[20px] lg:w-auto lg:h-auto "
-            // publicディレクトリの中にimageディレクトリを作り、そこに画像を保存すると、パスでたどる必要はなく『/』から始めれば良い。
             src="/image/logo1.jpg"
             width={300}
             height={300}
-            // altはsrcに来るものの名前が相応しい
             alt="Logo"
           ></Image>
         </div>
@@ -40,5 +36,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-// export default Footer;

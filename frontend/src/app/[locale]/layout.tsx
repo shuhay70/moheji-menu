@@ -1,5 +1,5 @@
-import type { AppProps } from "next/app"; // AppProps をインポート
-import type { ReactNode } from "react"; // ReactNode をインポート
+import type { AppProps } from "next/app";
+import type { ReactNode } from "react";
 
 import type { Metadata } from "next";
 import localFont from "next/font/local";

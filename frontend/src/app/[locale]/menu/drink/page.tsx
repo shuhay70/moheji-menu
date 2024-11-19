@@ -10,7 +10,7 @@ export default function HomePage() {
       <div
         className="scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll  bg-white "
         style={{
-          backgroundImage: "url('/image/backimg1.jpg')", // メインの背景画像
+          backgroundImage: "url('/image/backimg1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -180,10 +180,7 @@ export default function HomePage() {
                   <p className=" font-bold w-[70%]">{t("title28")}</p>
                   <p>800円</p>
                 </div>
-                {/* <div className="flex justify-between lg:w-[470px] my-2">
-                  <p className=" font-bold">{t("title29")}</p>
-                  <p>800円</p>
-                </div> */}
+
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title30")}</p>
                   <p>800円</p>
@@ -295,8 +292,6 @@ export default function HomePage() {
                   <p className="font-bold  w-[70%]">{t("title50")}</p>
                   <p>560円</p>
                 </div>
-                {/* <p className="text-[12px] pt-[5px]">{t("ex51")}</p>
-                <p className="text-[12px]">{t("ingredients51")}</p> */}
               </div>
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
@@ -329,14 +324,10 @@ export default function HomePage() {
 
                 <p>560円</p>
               </div>
-              {/* <p className="font-bold lg:text-[15px] text-[10px] lg:pt-[0px] pt-[5px]">
-                {t("ex54")}
-              </p> */}
             </div>
           </div>
         </div>
       </div>
-      {/* <p className="bg-white lg:ml-[150px] lg:mr-[138px] lg:p-[30px] mr-[40px] p-[20px]  w-[80%]"></p> */}
     </main>
   );
 }
