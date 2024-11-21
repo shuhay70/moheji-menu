@@ -26,11 +26,11 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <div>
+              <div className="flex justify-between">
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja1")}
                 </p>
-                <p className="pb-[15px]">{t("price1")}</p>
+                <p className="pb-[15px] pt-[10px]">{t("price1")}</p>
               </div>
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description1")}
@@ -48,10 +48,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja2")}
-              </p>
-              <p className="pb-[15px]">{t("price2")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja2")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price2")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description2")}{" "}
@@ -69,10 +71,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja3")}
-              </p>
-              <p className="pb-[15px]">{t("price3")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja3")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price3")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description3")}{" "}
@@ -92,10 +96,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja4")}
-              </p>
-              <p className="pb-[15px]">{t("price4")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja4")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price4")}</p>
+              </div>
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description4")}{" "}
               </p>
@@ -113,10 +119,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja5")}
-              </p>
-              <p className="pb-[15px]">{t("price5")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja5")}
+                </p>
+                <p className="pb-[15px pt-[10px]">{t("price5")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description5")}{" "}
@@ -134,10 +142,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja6")}
-              </p>
-              <p className="pb-[15px]">{t("price6")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja6")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price6")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description6")}
@@ -157,10 +167,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja7")}
-              </p>
-              <p className="pb-[15px]">{t("price7")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja7")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price7")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description7")}{" "}
@@ -178,10 +190,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja8")}
-              </p>
-              <p className="pb-[15px]">{t("price8")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja8")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price8")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description8")}{" "}
@@ -199,10 +213,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja9")}
-              </p>
-              <p className="pb-[15px]">{t("price9")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja9")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price9")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description9")}{" "}
@@ -222,10 +238,12 @@ export default function HomePage() {
                   alt="mennmochi"
                 />
               </div>
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja10")}
-              </p>
-              <p className="pb-[15px]">{t("price10")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja10")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price10")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description10")}
@@ -236,10 +254,12 @@ export default function HomePage() {
               </p>
             </div>
             <div className="lg:px-[40px] lg:pb-[30px]">
-              <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
-                {t("Monja11")}
-              </p>
-              <p className="pb-[15px]">{t("price11")}</p>
+              <div className="flex justify-between">
+                <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
+                  {t("Monja11")}
+                </p>
+                <p className="pb-[15px] pt-[10px]">{t("price11")}</p>
+              </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description11")}

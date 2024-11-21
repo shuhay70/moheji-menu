@@ -9,7 +9,8 @@
     "button14": "Reserve",
     "button2": "Language",
     "button22": "Japanese",
-    "button21": "English"
+    "button21": "English",
+    "button23": "中文"
   },
 
   "Menubar": {
@@ -73,6 +74,8 @@
     "title2": "Every winter, we have customers who come specifically for this dish featuring oysters and shirako (fish roe), making it a popular choice! The carefully selected oysters, sourced daily from the market, are plump and full of rich umami. Experience the unique winter flavors that can only be enjoyed at Moheji—don't miss out!",
     "title3": "Grilled Oysters with Butter（牡蠣のバター焼き）",
     "title4": "We grill fresh surumesquid, directly sourced from Toyosu Market, with the liver intact, then finish it by coating it in butter. The rich umami of the liver pairs perfectly with beer, making it an irresistible match. Enjoy the squid's firm texture and the flavor of slightly charred butter from the hot plate!",
+    "title5": "Shirako Ajillo(白子のアヒージョ）",
+    "title6": "Every winter, this dish featuring oysters and shirako is so popular that some customers come specifically for it! Carefully selected by skilled buyers at the market, the ingredients are delivered fresh to our restaurant every morning. Enjoy the irresistibly creamy texture of shirako, a winter delicacy that can only be savored at Moheji!",
     "price1": "1500yen",
     "price2": "1500yen",
     "price3": "1500yen",

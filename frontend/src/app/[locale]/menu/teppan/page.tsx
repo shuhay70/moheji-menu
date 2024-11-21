@@ -214,30 +214,41 @@ export default function HomePage() {
             </div>
           </div>
           <div className="lg:flex ">
-            <div className="lg:flex lg:flex-collg:w-[390px] lg:pr-[6px] lg:pt-[50px] lg:pl-[40px] pt-[20px]">
+            <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] lg:mr-[28px] pt-[20px]">
               <div className="flex justify-between ">
                 <p className="font-bold w-[67%]"> {t("title20")}</p>
                 <p className="w-[28%]">{t("price20")}</p>
               </div>
-              <div className="flex">
+              <div className="lg:flex">
                 <p>{t("ingredients20")}</p>
               </div>
             </div>
-            <div className="lg:flex lg:flex-collg:w-[390px] lg:pr-[6px] lg:pt-[50px] lg:pl-[40px] pt-[20px]">
+            <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] pt-[20px]">
               <div className="flex justify-between ">
                 <p className="font-bold w-[67%]"> {t("title21")}</p>
                 <p className="w-[28%]">{t("price21")}</p>
               </div>
+            </div>
+            <div className="lg:flex lg:flex-col lg:w-[390px]  lg:pr-[6px] lg:pt-[50px]  lg:pl-[40px] pt-[20px]">
+              <div className="flex justify-between">
+                <p className="font-bold w-[67%] lg:w-auto w-[200px]">
+                  {t("title333")}
+                </p>
+                <p className="w-[28%]">{t("price333")}</p>
+              </div>
               <div className="flex">
-                <p>{t("ingredients21")}</p>
+                <p>{t("ingredients333")}</p>
               </div>
             </div>
-            <div className="lg:flex lg:flex-collg:w-[390px] lg:pr-[6px] lg:pt-[50px] lg:pl-[40px] pt-[20px]">
+          </div>
+
+          <div className="lg:flex ">
+            <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] lg:mr-[28px] pt-[20px]">
               <div className="flex justify-between ">
                 <p className="font-bold w-[67%]"> {t("title22")}</p>
                 <p className="w-[28%]">{t("price22")}</p>
               </div>
-              <div className="flex">
+              <div className="lg:flex">
                 <p>{t("ingredients22")}</p>
               </div>
             </div>

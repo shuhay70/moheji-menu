@@ -23,10 +23,15 @@ export default function HomePage() {
               alt="mennmochi"
             />
             <div>
-              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                {t("title1")}
-              </p>
-              <p className="pb-[15px]"> {t("price1")}</p>
+              <div className="flex  justify-between">
+                <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                  {t("title1")}
+                </p>
+                <p className="py-[15px] lg:pt-[30px] lg:pl-[55px]">
+                  {" "}
+                  {t("price1")}
+                </p>
+              </div>
               <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
                 {t("title2")}
               </p>
@@ -38,11 +43,15 @@ export default function HomePage() {
                 alt="mennmochi"
               />
               <div>
-                <div className="flex justify-between"></div>
-                <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                  {t("title3")}
-                </p>
-                <p className="pb-[15px]"> {t("price2")}</p>
+                <div className="flex  justify-between">
+                  <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                    {t("title3")}
+                  </p>
+                  <p className="py-[15px] lg:pt-[30px] lg:pl-[35px]">
+                    {" "}
+                    {t("price2")}
+                  </p>
+                </div>
 
                 <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
                   {t("title4")}
@@ -51,34 +60,43 @@ export default function HomePage() {
             </div>
           </div>
           <div className="lg:w-[1100px] border-t border-gray-300 w-[0px]"></div>
-          <div className="lg:flex">
-            <div className="lg:flex ">
-              <img
-                src="/image/IMG_3171.jpg"
-                className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
-                alt="mennmochi"
-              />
-              <div>
+          <div className="lg:flex ">
+            <img
+              src="/image/IMG_3171.jpg"
+              className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
+              alt="mennmochi"
+            />
+            <div>
+              <div className="flex justify-between">
                 <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                  {t("title1")}
+                  {t("title5")}
                 </p>
-                <p className="pb-[15px]"> {t("price3")}</p>
-                <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
-                  {t("title2")}
+                <p className="py-[15px] lg:pt-[30px] lg:pl-[55px]">
+                  {" "}
+                  {t("price3")}
                 </p>
               </div>
+              <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
+                {t("title6")}
+              </p>
             </div>
-            <div className="lg:flex ">
+            <div className="lg:flex">
               <img
                 src="/image/IMG_3172.jpg"
                 className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
                 alt="mennmochi"
               />
               <div>
-                <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                  {t("title3")}
-                </p>
-                <p className="pb-[15px]"> {t("price4")}</p>
+                <div className="flex justify-between">
+                  <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                    {t("title3")}
+                  </p>
+                  <p className="py-[15px] lg:pt-[30px] lg:pl-[35px]">
+                    {" "}
+                    {t("price2")}
+                  </p>
+                </div>
+
                 <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
                   {t("title4")}
                 </p>
