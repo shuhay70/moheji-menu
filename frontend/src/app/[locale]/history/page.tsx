@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 export default function HomePage() {

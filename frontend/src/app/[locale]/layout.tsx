@@ -1,4 +1,3 @@
-import type { AppProps } from "next/app";
 import type { ReactNode } from "react";
 
 import type { Metadata } from "next";
