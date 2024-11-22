@@ -62,7 +62,7 @@ export default function HomePage() {
           <div className="lg:w-[1100px] border-t border-gray-300 w-[0px]"></div>
           <div className="lg:flex ">
             <img
-              src="/image/IMG_3171.jpg"
+              src="/image/shirako.jpg"
               className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
               alt="mennmochi"
             />
@@ -80,7 +80,7 @@ export default function HomePage() {
                 {t("title6")}
               </p>
             </div>
-            <div className="lg:flex">
+            {/* <div className="lg:flex">
               <img
                 src="/image/IMG_3172.jpg"
                 className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
@@ -101,7 +101,7 @@ export default function HomePage() {
                   {t("title4")}
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -237,10 +237,10 @@ export default function HomePage() {
                   <p className=" font-bold  w-[70%]">{t("title40")}</p>
                   <p>{t("price40")}</p>
                 </div>
-                <div className="flex justify-between lg:w-[470px] my-2">
+                {/* <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title41")}</p>
                   <p>{t("price41")}</p>
-                </div>
+                </div> */}
               </div>
               <div className="lg:w-[490px] ">
                 <p className="pt-[60px] font-bold flex justify-center">
