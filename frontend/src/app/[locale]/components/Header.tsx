@@ -155,13 +155,13 @@ export default function HomePage() {
               <div
                 tabIndex={0}
                 role="button"
-                className="btn m-1 w-[75px] text-[8px] mt-[8px]"
+                className="btn m-1 w-[85px] text-[8px] mt-[8px]"
               >
                 {t("button2")}
               </div>
               <ul
                 tabIndex={0}
-                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[55px] p-2 shadow"
+                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[73px] p-2 shadow"
               >
                 <div className="lg:pt-[7px]">
                   <Link
@@ -178,6 +178,14 @@ export default function HomePage() {
                     locale="en"
                   >
                     {t("button21")}
+                  </Link>
+
+                  <Link
+                    className="text-black text-[13px] lg:p-4 flex items-center justify-center"
+                    href="/"
+                    locale="zh"
+                  >
+                    {t("button23")}{" "}
                   </Link>
                 </div>
               </ul>
