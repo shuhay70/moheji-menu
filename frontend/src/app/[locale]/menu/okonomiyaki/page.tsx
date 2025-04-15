@@ -24,7 +24,7 @@ export default function HomePage() {
             <div className="lg:w-[320px]  lg:px-[6px]">
               <div className="flex justify-between lg:pb-[10px] lg:pr-[10px] lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title1")}</p>
-                <p>{t("price1")}</p>
+                <p>¥1078</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients1")}</p>
@@ -33,7 +33,7 @@ export default function HomePage() {
             <div className="lg:w-[350px] lg:px-[6px]">
               <div className="flex justify-between lg:pb-[10px] lg:pr-[10px] lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title2")}</p>
-                <p>{t("price2")}</p>
+                <p>¥1958</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients2")} </p>
@@ -42,7 +42,7 @@ export default function HomePage() {
             <div className="lg:w-[350px]  lg:px-[6px] ">
               <div className="flex justify-between lg:pb-[10px] lg:pr-[10px] lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title3")}</p>
-                <p>{t("price3")}</p>
+                <p>¥1848</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients3")}</p>
@@ -53,7 +53,7 @@ export default function HomePage() {
             <div className="lg:w-[350px]  lg:px-[6px]">
               <div className="flex justify-between lg:pb-[10px] lg:pr-[10px] lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title4")}</p>
-                <p>{t("price4")}</p>
+                <p>¥2178</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients4")} </p>
@@ -62,14 +62,14 @@ export default function HomePage() {
             <div className="lg:w-[350px] lg:px-[6px]">
               <div className="flex justify-between lg:pb-[10px] lg:pr-[10px] lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title5")}</p>
-                <p>{t("price5")}</p>
+                <p>¥1298</p>
               </div>
               <div className="lg:flex">{t("ingredients5")} </div>
             </div>
             <div className="lg:w-[350px]  lg:px-[6px] ">
               <div className="flex justify-between lg:pb-[10px] lg:pr-[10px] lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title6")}</p>
-                <p>{t("price6")}</p>
+                <p>¥858</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients6")}</p>
@@ -84,7 +84,7 @@ export default function HomePage() {
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px]">
               <div className="flex justify-between  lg:w-[300px] lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title7")}</p>
-                <p>{t("price7")}</p>
+                <p>¥1408</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients7")}</p>
@@ -93,7 +93,7 @@ export default function HomePage() {
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px]">
               <div className="flex justify-between lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title8")}</p>
-                <p>{t("price8")}</p>
+                <p>¥1628</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients8")} </p>
@@ -102,7 +102,7 @@ export default function HomePage() {
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:py-[0px] pb-[8px] pt-[20px]">
               <div className="flex justify-between">
                 <p className="font-bold">{t("title9")}</p>
-                <p>{t("price9")}</p>
+                <p>¥1408</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients9")}</p>
@@ -113,7 +113,7 @@ export default function HomePage() {
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px] lg:mr-[28px]">
               <div className="flex justify-between lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title10")}</p>
-                <p>{t("price10")}</p>
+                <p>¥1848</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients10")}</p>
@@ -122,7 +122,7 @@ export default function HomePage() {
             <div className="lg:flex lg:flex-col lg:w-[350px]  lg:px-[6px] lg:pt-[50px]">
               <div className="flex justify-between lg:py-[0px] pb-[8px] pt-[20px]">
                 <p className="font-bold">{t("title11")}</p>
-                <p>{t("price11")}</p>
+                <p>¥1408</p>
               </div>
               <div className="lg:flex">
                 <p>{t("ingredients11")}</p>

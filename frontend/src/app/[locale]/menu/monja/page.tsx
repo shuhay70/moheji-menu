@@ -30,7 +30,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja1")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price1")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1848</p>
               </div>
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description1")}
@@ -52,7 +52,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja2")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price2")}</p>
+                <p className="pb-[15px] pt-[10px]">¥2068</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -75,7 +75,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja3")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price3")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1958</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -100,7 +100,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja4")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price4")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1848</p>
               </div>
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
                 {t("description4")}{" "}
@@ -123,7 +123,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja5")}
                 </p>
-                <p className="pb-[15px pt-[10px]">{t("price5")}</p>
+                <p className="pb-[15px pt-[10px]">¥1738</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -146,7 +146,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja6")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price6")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1738</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -171,7 +171,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja7")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price7")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1738</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -194,7 +194,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja8")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price8")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1958</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -217,7 +217,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja9")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price9")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1738</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -242,7 +242,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja10")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price10")}</p>
+                <p className="pb-[15px] pt-[10px]">¥1848</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
@@ -258,7 +258,7 @@ export default function HomePage() {
                 <p className="lg:flex lg:justify-center lg:text-[20px] font-bold lg:pt-[10px] my-[10px] lg:my-[0px]">
                   {t("Monja11")}
                 </p>
-                <p className="pb-[15px] pt-[10px]">{t("price11")}</p>
+                <p className="pb-[15px] pt-[10px]">¥858</p>
               </div>
 
               <p className="lg:flex lg:justify-center lg:w-[280px] mb-[5px] lg:mb-[0px]">
