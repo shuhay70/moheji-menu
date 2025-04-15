@@ -27,16 +27,13 @@ export default function HomePage() {
                 <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                   {t("title1")}
                 </p>
-                <p className="py-[15px] lg:pt-[30px] lg:pl-[55px]">
-                  {" "}
-                  {t("price1")}
-                </p>
+                <p className="py-[15px] lg:pt-[30px] lg:pl-[55px]">¥1738</p>
               </div>
               <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
                 {t("title2")}
               </p>
             </div>
-            <div className="lg:flex">
+            {/* <div className="lg:flex">
               <img
                 src="/image/IMG_3172.jpg"
                 className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
@@ -57,11 +54,11 @@ export default function HomePage() {
                   {t("title4")}
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="lg:w-[1100px] border-t border-gray-300 w-[0px]"></div>
           <div className="lg:flex ">
-            <img
+            {/* <img
               src="/image/shirako.jpg"
               className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
               alt="mennmochi"
@@ -79,7 +76,7 @@ export default function HomePage() {
               <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
                 {t("title6")}
               </p>
-            </div>
+            </div> */}
             {/* <div className="lg:flex">
               <img
                 src="/image/IMG_3172.jpg"
