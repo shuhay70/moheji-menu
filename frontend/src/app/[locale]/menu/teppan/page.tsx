@@ -55,18 +55,18 @@ export default function HomePage() {
                 <p className="font-bold w-[67%]"> {t("title4")}</p>
                 <p className="w-[28%]">¥638</p>
               </div>
-              <div className="flex">
+              {/* <div className="flex">
                 <p>{t("ingredients4")}</p>
-              </div>
+              </div> */}
             </div>
             <div className="lg:w-[350px] lg:px-[6px]">
               <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
                 <p className="font-bold w-[67%]"> {t("title5")}</p>
                 <p className="w-[28%]">¥748</p>
               </div>
-              <div className="flex">
+              {/* <div className="flex">
                 <p>{t("ingredients5")}</p>
-              </div>
+              </div> */}
             </div>
             <div className="lg:w-[350px]  lg:px-[6px] ">
               <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
@@ -99,8 +99,8 @@ export default function HomePage() {
             </div>
             <div className="lg:w-[350px]  lg:px-[6px] ">
               <div className="flex justify-between pb-[10px] lg:pr-[10px] lg:pt-[0px] pt-[20px]">
-                <p className="font-bold w-[67%]"> ¥968</p>
-                <p className="w-[28%]">{t("price9")}</p>
+                <p className="font-bold w-[67%]"> {t("title9")}</p>
+                <p className="w-[28%]">¥968</p>
               </div>
               <div className="flex">
                 <p>{t("ingredients9")}</p>
