@@ -27,12 +27,71 @@ export default function HomePage() {
                 <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                   {t("title1")}
                 </p>
-                <p className="py-[15px] lg:pt-[30px] lg:pl-[55px]">¥1738</p>
+                <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                  ¥1738
+                </p>
               </div>
               <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
                 {t("title2")}
               </p>
             </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title7")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥968
+              </p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title8")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥1980
+              </p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title9")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥1518
+              </p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title10")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥1738
+              </p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title11")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥1848
+              </p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title12")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥858
+              </p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title13")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥858
+              </p>
+            </div>
+
             {/* <div className="lg:flex">
               <img
                 src="/image/IMG_3172.jpg"
