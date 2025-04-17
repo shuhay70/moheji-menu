@@ -28,7 +28,7 @@ export default function HomePage() {
                   {t("title1")}
                 </p>
                 <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                  ¥1738
+                  ¥1518
                 </p>
               </div>
               <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
