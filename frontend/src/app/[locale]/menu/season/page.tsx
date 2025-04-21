@@ -35,14 +35,14 @@ export default function HomePage() {
                 {t("title2")}
               </p>
             </div>
-            <div className="flex  justify-between">
+            {/* <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                 {t("title7")}
               </p>
               <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
                 ¥968
               </p>
-            </div>
+            </div> */}
             <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                 {t("title8")}
@@ -53,12 +53,20 @@ export default function HomePage() {
             </div>
             <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title14")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                ¥968
+              </p>
+            </div>
+            {/* <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                 {t("title9")}
               </p>
               <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
                 ¥1518
               </p>
-            </div>
+            </div> */}
             <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                 {t("title10")}

@@ -82,7 +82,8 @@
     "title10": "Mapo & Eggplant Monja（麻婆茄子もんじゃ）",
     "title11": "Nibo Spicy Monja（にぼスパイシーもんじゃ）",
     "title12": "Sweet Potato & Red Bean Crêpe（スイートポテトのあんこ巻き）",
-    "title13": "Grilled Sweet Potato Mochi（鉄板スイートポテトもち）"
+    "title13": "Grilled Sweet Potato Mochi（鉄板スイートポテトもち）",
+    "title14": "Whelk and Potato with Butter（つぶ貝じゃがバター）"
   },
 
   "Okonomiyaki": {
@@ -99,7 +100,7 @@
     "ingredients3": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter, beef tendon, burdock root, konjac",
     "title4": "Mix（ミックス玉）",
     "price4": "1500yen",
-    "ingredients4": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter, pork, beef tendon, squid",
+    "ingredients4": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter,noodles, pork, beef tendon, squid",
     "title5": "Modern Yaki（モダン焼き）",
     "price5": "1500yen",
     "ingredients5": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter, noodles, pork",
@@ -108,19 +109,19 @@
     "ingredients6": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter",
     "title7": "Fried Noodles(もへじ焼きそば）",
     "price7": "1500yen",
-    "ingredients7": "Ingredients: noodles, bean sprouts, bok choy, chili pepper, cabbage, garlic, pork",
+    "ingredients7": "Ingredients: noodles, bean sprouts, bok choy, chili pepper, garlic, pork",
     "title8": "Mixed Sauce Fried Noodles(五目ソース焼きそば)",
     "price8": "1500yen",
-    "ingredients8": "Ingredients: noodles, bean sprouts, cabbage, pickled ginger, tempura crumbs, pork, squid",
+    "ingredients8": "Ingredients: noodles, bean sprouts, cabbage, pickled ginger, tempura crumbs, pork, squid, Carrot, Bell Pepper, and Shiitake Mushroom",
     "title9": "Fried Noodles With Omelette(オムそば)",
     "price9": "1500yen",
     "ingredients9": "Ingredients:noodles, egg, fresh cream, bean sprouts, cabbage, pork",
     "title10": "Seafood Carlic Rice(海鮮ガーリックライス)",
     "price10": "1500yen",
-    "ingredients10": "Ingredients: rice, bean sprouts, Kujo green onions, squid, shrimp, octopus, scallop",
+    "ingredients10": "Ingredients: rice, bean sprouts, Garlic, Thai chili, Kujo green onions, squid, shrimp, octopus, scallop",
     "title11": "Omelette Rice(鉄板オムライス)",
     "price11": "1500yen",
-    "ingredients11": "Ingredients: rice, egg, fresh cream, onion, chicken, homemade ketchup"
+    "ingredients11": "Ingredients: rice, egg, Butter, fresh cream, onion, chicken, homemade ketchup"
   },
 
   "Topping": {
@@ -293,13 +294,13 @@
     "title666": "＜Soft Drinks＞ ",
     "title777": "＜Desserts＞ ",
     "title888": "＜Drinks＞ ",
-    "title1": "Asahi Draft Beer (アサヒ生)",
+    "title1": "Asahi Super Dry (アサヒ生)",
     "price1": "220 Yen",
     "title2": "Sapporo Akaboshi (サッポロ赤星)",
     "price2": "220 Yen",
-    "title3": "All-Free (Non-Alcoholic Beer) (オールフリー)",
+    "title3": "Asahi Super Dry (Bottle) (アサヒスーパードライ)",
     "price3": "220 Yen",
-    "title4": "All-Free (Non-Alcoholic Beer) (オールフリー)",
+    "title4": "Asahi Dry Zero (Non-Alcoholic Beer) (ドライゼロ)",
     "price4": "220 Yen",
     "title5": "Hoppy (White/Black) (ホッピー（白・黒）)",
     "price5": "220 Yen",
