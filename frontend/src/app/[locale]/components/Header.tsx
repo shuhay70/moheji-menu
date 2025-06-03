@@ -90,18 +90,18 @@ export default function HomePage() {
           <Image
             className="py-[4px] pl-[4px] pr-[1px]"
             src="/image/logo4.jpg"
-            width={60}
-            height={60}
+            width={80}
+            height={80}
             alt="Logo"
           ></Image>
         </div>
         <div className="flex">
-          <div className="flex">
+          <div className="flex h-[100px]">
             <div className="dropdown dropdown-end ">
               <div
                 tabIndex={0}
                 role="button"
-                className="btn m-1 w-[75px] text-[8px] mt-[8px]"
+                className="btn m-1 w-[75px] h-[75px] text-[8px] mt-[12px]"
               >
                 {t("button1")}
               </div>
@@ -155,7 +155,7 @@ export default function HomePage() {
               <div
                 tabIndex={0}
                 role="button"
-                className="btn m-1 w-[85px] text-[8px] mt-[8px]"
+                className="btn m-1 w-[85px] h-[75px] text-[8px] mt-[12px]"
               >
                 {t("button2")}
               </div>
