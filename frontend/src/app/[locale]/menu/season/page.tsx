@@ -35,14 +35,7 @@ export default function HomePage() {
                 {t("title2")}
               </p>
             </div>
-            {/* <div className="flex  justify-between">
-              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                {t("title7")}
-              </p>
-              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                ¥968
-              </p>
-            </div> */}
+
             <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                 {t("title8")}
@@ -59,22 +52,7 @@ export default function HomePage() {
                 ¥968
               </p>
             </div>
-            {/* <div className="flex  justify-between">
-              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                {t("title9")}
-              </p>
-              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                ¥1518
-              </p>
-            </div> */}
-            <div className="flex  justify-between">
-              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                {t("title10")}
-              </p>
-              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                ¥1738
-              </p>
-            </div>
+
             <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
                 {t("title11")}
@@ -83,45 +61,37 @@ export default function HomePage() {
                 ¥1848
               </p>
             </div>
+
             <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                {t("title12")}
+                {t("title15")}
               </p>
-              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                ¥858
-              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">¥</p>
             </div>
             <div className="flex  justify-between">
               <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                {t("title13")}
+                {t("title16")}
               </p>
-              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                ¥858
-              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">¥</p>
             </div>
-
-            {/* <div className="lg:flex">
-              <img
-                src="/image/IMG_3172.jpg"
-                className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
-                alt="mennmochi"
-              />
-              <div>
-                <div className="flex  justify-between">
-                  <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
-                    {t("title3")}
-                  </p>
-                  <p className="py-[15px] lg:pt-[30px] lg:pl-[35px]">
-                    {" "}
-                    {t("price2")}
-                  </p>
-                </div>
-
-                <p className="lg:px-[25px] lg:h-[240px] lg:w-[280px] lg:pb-[0px] pb-[15px]">
-                  {t("title4")}
-                </p>
-              </div>
-            </div> */}
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title17")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">¥</p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title18")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">¥</p>
+            </div>
+            <div className="flex  justify-between">
+              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                {t("title19")}
+              </p>
+              <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">¥</p>
+            </div>
           </div>
           <div className="lg:w-[1100px] border-t border-gray-300 w-[0px]"></div>
           <div className="lg:flex ">
