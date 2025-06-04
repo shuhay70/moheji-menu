@@ -30,19 +30,19 @@ export default function HomePage() {
                 <div className="lg:w-[490px] border-t border-gray-300 lg:my-2"></div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className="font-bold  w-[70%]">{t("title1")}</p>
-                  <p>{t("price1")}</p>
+                  <p>¥660</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold w-[70%]">{t("title2")}</p>
-                  <p>{t("price2")}</p>
+                  <p>¥715</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title3")}</p>
-                  <p>{t("price3")}</p>
+                  <p>¥715</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title4")}</p>
-                  <p>{t("price4")}</p>
+                  <p>¥495</p>
                 </div>
               </div>
               <div className="lg:w-[500px] ">
@@ -53,7 +53,7 @@ export default function HomePage() {
                 <div className="flex flex-col  lg:w-[470px] my-2">
                   <div className="flex justify-between">
                     <p className=" font-bold  w-[70%]">{t("title5")}</p>
-                    <p>{t("price5")}</p>
+                    <p>¥550</p>
                   </div>
                   <Link
                     className="text-red-400 text-[12px] pt-[5px]"
@@ -64,41 +64,41 @@ export default function HomePage() {
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title6")}</p>
-                  <p>{t("price6")}</p>
+                  <p>¥275</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title7")}</p>
-                  <p>{t("price7")}</p>
+                  <p>¥275</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title8")}</p>
-                  <p>{t("price8")}</p>
+                  <p>¥605</p>
                 </div>
                 <div className="flex flex-col  lg:w-[470px] my-2">
                   <div className="flex justify-between">
                     <p className=" font-bold  w-[70%]">{t("title9")}</p>
-                    <p>{t("price9")}</p>
+                    <p>¥605</p>
                   </div>
                   <p className="text-[12px] pt-[5px]">*{t("ex9")}</p>
                 </div>
                 <div className="flex flex-col  lg:w-[470px] my-2">
                   <div className="flex justify-between">
                     <p className=" font-bold  w-[70%]">{t("title10")}</p>
-                    <p>{t("price10")}</p>
+                    <p>¥550</p>
                   </div>
                   <p className="text-[12px] pt-[5px]">*{t("ex10")}</p>
                 </div>
                 <div className="flex flex-col  lg:w-[470px] my-2">
                   <div className="flex justify-between">
                     <p className=" font-bold  w-[70%]">{t("title11")}</p>
-                    <p>{t("price11")}</p>
+                    <p>¥605</p>
                   </div>
                   <p className="text-[12px] pt-[5px]">*{t("ex11")}</p>
                 </div>
                 <div className="flex flex-col lg:w-[470px] my-2">
                   <div className="flex justify-between">
                     <p className=" font-bold  w-[70%]">{t("title12")}</p>
-                    <p>{t("price12")}</p>
+                    <p>¥605</p>
                   </div>
                   <p className="text-[12px] pt-[5px]">* {t("ex12")}</p>
                 </div>
@@ -110,59 +110,63 @@ export default function HomePage() {
                 <div className="lg:w-[490px] border-t border-gray-300 my-2"></div>
                 <div className="flex justify-between lg:w-[470px] my-1">
                   <p className="font-bold  w-[70%]">{t("title13")}</p>
-                  <p>{t("price13")}</p>
+                  <p>¥605</p>
+                </div>
+                <div className="flex justify-between lg:w-[470px] my-1">
+                  <p className="font-bold  w-[70%]">{t("title99")}</p>
+                  <p>¥550</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title14")}</p>
-                  <p>{t("price14")}</p>
+                  <p>¥1430</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title15")}</p>
-                  <p>{t("price15")}</p>
+                  <p>¥1430</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title16")}</p>
-                  <p>{t("price16")}</p>
+                  <p>¥990</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title17")}</p>
-                  <p>{t("price17")}</p>
+                  <p>¥550</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title18")}</p>
-                  <p>{t("price18")}</p>
+                  <p>¥550</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title19")}</p>
-                  <p>{t("price19")}</p>
+                  <p>¥660</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title20")}</p>
-                  <p>{t("price20")}</p>
+                  <p>¥660</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title21")}</p>
-                  <p>{t("price21")}</p>
+                  <p>¥660</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title22")}</p>
-                  <p>{t("price22")}</p>
+                  <p>¥605</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title23")}</p>
-                  <p>{t("price23")}</p>
+                  <p>¥550</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title24")}</p>
-                  <p>{t("price24")}</p>
+                  <p>¥550</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title25")}</p>
-                  <p>{t("price25")}</p>
+                  <p>¥605</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title26")}</p>
-                  <p>{t("price26")}</p>
+                  <p>¥605</p>
                 </div>
               </div>
             </div>
@@ -174,24 +178,28 @@ export default function HomePage() {
                 <div className="lg:w-[490px] border-t border-gray-300 my-2"></div>
                 <div className="flex justify-between lg:w-[470px] my-1">
                   <p className="font-bold  w-[70%]">{t("title27")}</p>
-                  <p>{t("price27")}</p>
+                  <p>¥605</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold w-[70%]">{t("title28")}</p>
-                  <p>{t("price28")}</p>
+                  <p>¥660</p>
                 </div>
 
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title30")}</p>
-                  <p>{t("price29")}</p>
+                  <p>¥605</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title31")}</p>
-                  <p>{t("price31")}</p>
+                  <p>¥660</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title32")}</p>
-                  <p>{t("price32")}</p>
+                  <p>¥605</p>
+                </div>
+                <div className="flex justify-between lg:w-[470px] my-2">
+                  <p className=" font-bold  w-[70%]">{t("title33")}</p>
+                  <p>¥660</p>
                 </div>
               </div>
               <div className="lg:w-[300px] ">
@@ -199,21 +207,26 @@ export default function HomePage() {
                   {t("title444")}
                 </p>
                 <div className="lg:w-[490px] border-t border-gray-300 my-2"></div>
-                <div className="flex justify-between lg:w-[470px] my-1">
-                  <p className="font-bold  w-[70%] ">{t("title33")} </p>
-                  <p>{t("price33")}</p>
-                </div>
+
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title34")}</p>
-                  <p>{t("price34")}</p>
+                  <p>¥605</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title35")}</p>
-                  <p>{t("price35")}</p>
+                  <p>¥605</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title36")}</p>
-                  <p>{t("price36")}</p>
+                  <p>¥605</p>
+                </div>
+                <div className="flex justify-between lg:w-[470px] my-2">
+                  <p className=" font-bold  w-[70%]">{t("title37")}</p>
+                  <p>¥605</p>
+                </div>
+                <div className="flex justify-between lg:w-[470px] my-2">
+                  <p className=" font-bold  w-[70%]">{t("title88")}</p>
+                  <p>¥605</p>
                 </div>
               </div>
               <div className="lg:w-[490px] ">
@@ -221,21 +234,18 @@ export default function HomePage() {
                   {t("title555")}
                 </p>
                 <div className="lg:w-[490px] border-t border-gray-300 my-2"></div>
-                <div className="flex justify-between lg:w-[470px] my-1">
-                  <p className="font-bold  w-[70%] ">{t("title37")}</p>
-                  <p>{t("price37")}</p>
-                </div>
+
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title38")}</p>
-                  <p>{t("price38")}</p>
+                  <p>¥825</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title39")}</p>
-                  <p>{t("price39")}</p>
+                  <p>¥825</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title40")}</p>
-                  <p>{t("price40")}</p>
+                  <p>¥825</p>
                 </div>
                 {/* <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title41")}</p>
@@ -249,31 +259,31 @@ export default function HomePage() {
                 <div className="lg:w-[490px] border-t border-gray-300 my-2"></div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title43")}</p>
-                  <p>{t("price43")}</p>
+                  <p>￥385</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title44")}</p>
-                  <p>{t("price44")}</p>
+                  <p>￥385</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title45")}</p>
-                  <p>{t("price45")}</p>
+                  <p>￥385</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title46")}</p>
-                  <p>{t("price46")}</p>
+                  <p>￥385</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title47")}</p>
-                  <p>{t("price47")}</p>
+                  <p>¥418</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title48")}</p>
-                  <p>{t("price48")}</p>
+                  <p>¥418</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-1">
                   <p className="font-bold  w-[70%] ">{t("title49")}</p>
-                  <p>{t("price49")}</p>
+                  <p>¥418</p>
                 </div>
                 <p className="lg:w-[235px]  text-[12px] bg-red-300 rounded p-1 flex justify-center mt-[15px]">
                   {t("ex49")}
@@ -290,13 +300,13 @@ export default function HomePage() {
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
                   <p className="font-bold  w-[70%]">{t("title50")}</p>
-                  <p>{t("price50")}</p>
+                  <p>¥638</p>
                 </div>
               </div>
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
                   <p className="font-bold  w-[70%]">{t("title51")}</p>
-                  <p>{t("price51")}</p>
+                  <p>¥748</p>
                 </div>
                 <p className="text-[12px] pt-[5px]">{t("ex51")}</p>
                 <p className="text-[12px]">{t("ingredients51")}</p>
@@ -304,7 +314,7 @@ export default function HomePage() {
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
                   <p className="font-bold  w-[70%]">{t("title52")}</p>
-                  <p>{t("price52")}</p>
+                  <p>¥858</p>
                 </div>
                 <p className="text-[12px] pt-[5px]">{t("ex52")}</p>
                 <p className="text-[12px]">{t("ingredients52")}</p>
@@ -315,14 +325,14 @@ export default function HomePage() {
               <div className="flex  lg:w-[470px] flex-col lg:my-2 my-[15px]">
                 <div className="flex justify-between">
                   <p className="font-bold  w-[70%]">{t("title53")}</p>
-                  <p>{t("price53")}</p>
+                  <p>¥858</p>
                 </div>
                 <p className="text-[12px] pt-[5px]">{t("ingredients53")}</p>
               </div>
               <div className="flex justify-between lg:w-[470px]  lg:my-2 my-[15px]">
                 <p className="font-bold w-[70%]">{t("title54")}</p>
 
-                <p>{t("price54")}</p>
+                <p>¥275</p>
               </div>
             </div>
           </div>
