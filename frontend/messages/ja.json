@@ -7,10 +7,11 @@
     "button12": "もんじゃの歴史",
     "button13": "アクセス",
     "button14": "予約",
-    "button2": "English/中文",
+    "button2": "Language",
     "button22": "Japanese",
     "button21": "English",
-    "button23": "中文"
+    "button23": "中文",
+    "button24": "한국어"
   },
 
   "Menubar": {
