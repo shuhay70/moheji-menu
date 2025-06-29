@@ -8,10 +8,11 @@
     "button13": "アクセス",
     "button14": "予約",
     "button2": "Language",
-    "button22": "Japanese",
+    "button22": "日本語",
     "button21": "English",
     "button23": "中文",
-    "button24": "한국어"
+    "button24": "한국어",
+    "button25": "閉じる"
   },
 
   "Menubar": {

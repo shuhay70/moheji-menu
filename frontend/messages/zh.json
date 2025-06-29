@@ -8,10 +8,11 @@
     "button13": "交通",
     "button14": "预订",
     "button2": "语言",
-    "button22": "Japanese",
+    "button22": "日本語",
     "button21": "English",
     "button23": "中文",
-    "button24": "한국어"
+    "button24": "한국어",
+    "button25": "关闭"
   },
 
   "Menubar": {
