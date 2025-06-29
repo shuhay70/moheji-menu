@@ -2,16 +2,17 @@
   "Header": {
     "title": "도쿄 문화를 세계로",
     "button1": "메뉴",
-    "button10": "TOP",
+    "button10": "홈",
     "button11": "메뉴",
     "button12": "몬자야키의 역사",
     "button13": "오시는 길",
     "button14": "예약",
     "button2": "Language",
-    "button22": "Japanese",
+    "button22": "日本語",
     "button21": "English",
     "button23": "中文",
-    "button24": "한국어"
+    "button24": "한국어",
+    "button25": "닫기"
   },
 
   "Menubar": {
