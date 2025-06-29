@@ -8,9 +8,11 @@
     "button13": "Locations",
     "button14": "Reserve",
     "button2": "Language",
-    "button22": "Japanese",
+    "button22": "日本語",
     "button21": "English",
-    "button23": "Chinese"
+    "button23": "中文",
+    "button24": "한국어",
+    "button25": "Close"
   },
 
   "Menubar": {

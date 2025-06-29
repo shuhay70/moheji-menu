@@ -1,198 +1,175 @@
-import React from "react";
+"use client";
 
-import Image from "next/image";
-import { Link } from "@/i18n/routing";
+import React, { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
-export default function HomePage() {
+const Header = () => {
   const t = useTranslations("Header");
+  const [openMenu, setOpenMenu] = useState(false);
+
+  // メニュー項目を翻訳キーで定義
+  const menuItems = [
+    { key: "button10", href: "/" }, // トップ
+    { key: "button11", href: "/menu/monja" }, // お品書き
+    { key: "button12", href: "/history" }, // 歴史
+    { key: "button13", href: "https://kano-corp.tokyo/shop/" }, // アクセス
+    {
+      key: "button14",
+      href: "https://tabelog.com/tokyo/A1313/A131302/13186205/",
+    }, // ご予約
+  ];
 
   return (
-    <header className="lg:flex lg:justify-between w-full bg-headercolor2 lg:p-2 w-[390px]">
-      <div className="hidden sm:block lg:flex lg:justify-between w-full">
-        <div className="lg:flex lg:items-center">
-          <Image
-            className="lg:pl-[20px] w-[30px] h-[30px] lg:w-[78px] lg:h-[65px]"
+    <>
+      <header className="fixed top-0 left-0 w-full z-50 h-[80px] bg-headercolor2 text-white shadow-md px-4 py-2 flex justify-between items-center">
+        {/* ロゴ */}
+        <Link href="/" className="h-full flex items-center">
+          <img
             src="/image/logo4.jpg"
-            width={75}
-            height={75}
-            alt="Logo"
-          ></Image>
-          <h1 className="text-white lg:text-[10px] lg:pt-[8px] lg:pl-[8px] text-[0px]">
-            {t("title")}
-          </h1>
-        </div>
-        <div className="flex justify-items-center">
-          <div className="lg:p-4 lg:w-[110px] flex items-center justify-center">
-            <Link className="text-white" href="/">
-              トップ
-            </Link>
-          </div>
-          <div className="flex border-l border-white lg:h-[35px] lg:mt-[10px]" />
-          <div className="lg:p-4 lg:w-[110px] flex items-center justify-center">
-            <Link className="text-white" href="/menu/monja">
-              お品書き
-            </Link>
-          </div>
-          <div className="border-l  border-white lg:h-[35px] lg:mt-[10px]" />
-          <div className="lg:p-4 lg:w-[110px] flex items-center justify-center">
-            <Link className="text-white" href="/history">
-              歴史
-            </Link>
-          </div>
-          <div className="border-l  border-white  lg:h-[35px] lg:mt-[10px]" />
-          <div className="lg:p-4 lg:w-[110px] flex items-center justify-center">
-            <Link className="text-white" href="https://kano-corp.tokyo/shop/">
-              アクセス
-            </Link>
-          </div>
-          <div className="border-l  border-white  lg:h-[35px] lg:mt-[10px]" />
-          <div className="lg:p-4 lg:w-[110px] flex items-center justify-center">
-            <Link
-              className="text-white"
-              href="https://tabelog.com/tokyo/A1313/A131302/13186205/"
-            >
-              ご予約
-            </Link>
-          </div>
-        </div>
+            alt="logo"
+            className="h-full w-auto object-contain"
+          />
+        </Link>
 
-        <div className="dropdown dropdown-end">
-          <div tabIndex={0} role="button" className="btn m-1 mt-[8px]">
-            Language
-          </div>
-          <ul
-            tabIndex={0}
-            className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
-          >
-            <div className="lg:pt-[7px]">
-              <Link
-                className="text-black lg:text-[13px] lg:p-4 flex items-center justify-center"
-                href=""
-              >
-                日本語
-              </Link>
+        {/* PC ナビゲーション */}
+        <nav className="hidden md:flex items-center">
+          <ul className="flex items-center space-x-4">
+            {menuItems.map((item, idx) => (
+              <React.Fragment key={idx}>
+                <li>
+                  <Link href={item.href} className="hover:underline">
+                    {t(item.key)}
+                  </Link>
+                </li>
+                {idx < menuItems.length - 1 && <span>|</span>}
+              </React.Fragment>
+            ))}
+          </ul>
+        </nav>
 
-              <Link
-                className="text-black text-[13px] lg:p-4 flex items-center justify-center"
-                href="https://tsukishima-monja-koboreya.com/"
-              >
-                English
-              </Link>
+        {/* PC版 言語切替 */}
+        <div className="hidden md:block">
+          <div className="dropdown dropdown-end">
+            <div tabIndex={0} role="button" className="btn m-1">
+              {t("button2")}
             </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-base-100 text-black rounded-box z-[1] w-52 p-2 shadow"
+            >
+              <li>
+                <Link href="/" locale="ja">
+                  {t("button22")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/" locale="en">
+                  {t("button21")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/" locale="zh">
+                  {t("button23")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/" locale="ko">
+                  {t("button24")}
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* モバイル版 ボタンコンテナ */}
+        <div className="md:hidden flex items-center">
+          {/* 言語切替 */}
+          <div className="dropdown dropdown-end">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost btn-circle"
+            >
+              <img
+                src="/image/tikyugi.jpeg"
+                alt="f"
+                className="h-[35px] w-[35px]"
+              />
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-gray-100 text-black z-[1] w-[100px] p-2 shadow mt-[5px]"
+            >
+              <li>
+                <Link href="/" locale="ja">
+                  {t("button22")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/" locale="en">
+                  {t("button21")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/" locale="zh">
+                  {t("button23")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/" locale="ko">
+                  {t("button24")}
+                </Link>
+              </li>
+            </ul>
+          </div>
+          {/* ハンバーガーボタン */}
+          <button
+            onClick={() => setOpenMenu(!openMenu)}
+            className="btn btn-ghost btn-circle"
+            aria-label="メニューを開く"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-[50px] w-[50px]"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeWidth="1" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      {/* モバイルメニュー */}
+      {openMenu && (
+        <div className="fixed top-[80px] left-0 w-full z-40 md:hidden bg-white text-black shadow-lg">
+          <ul className="space-y-1 p-4">
+            {menuItems.map((item, idx) => (
+              <li key={idx}>
+                <Link
+                  href={item.href}
+                  className="block border-b border-gray-400 pb-2 hover:text-gray-500 p-3"
+                  onClick={() => setOpenMenu(false)}
+                >
+                  <p className="font-semibold">{t(item.key)}</p>
+                </Link>
+              </li>
+            ))}
+            <li className="text-center pt-4">
+              <button
+                onClick={() => setOpenMenu(false)}
+                className="text-sm text-gray-600 underline"
+              >
+                {t("button25")}
+              </button>
+            </li>
           </ul>
         </div>
-      </div>
-
-      {/* 以下モバイル */}
-      <div className="lg:hidden flex justify-between">
-        <div className="flex items-center">
-          <Image
-            className="py-[4px] pl-[4px] pr-[1px]"
-            src="/image/logo4.jpg"
-            width={80}
-            height={80}
-            alt="Logo"
-          ></Image>
-        </div>
-        <div className="flex">
-          <div className="flex h-[100px]">
-            <div className="dropdown dropdown-end ">
-              <div
-                tabIndex={0}
-                role="button"
-                className="btn m-1 w-[75px] h-[75px] text-[8px] mt-[12px]"
-              >
-                {t("button1")}
-              </div>
-              <ul
-                tabIndex={0}
-                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[220px] p-2 shadow"
-              >
-                <div className="flex ">
-                  <div className="flex flex-col justify-items-center">
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center  lg:py-[0px] py-[8px] ">
-                      <Link className="text-black" href="/">
-                        {t("button10")}
-                      </Link>
-                    </div>
-                    <div className="flex border-l border-black lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] ">
-                      <Link className="text-black" href="/menu/monja">
-                        {t("button11")}
-                      </Link>
-                    </div>
-                    <div className="border-l  border-black lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] lg:pl-[0px] pl-[10px] ">
-                      <Link className="text-black" href="/history">
-                        {t("button12")}
-                      </Link>
-                    </div>
-                    <div className="border-l  border-black lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] ">
-                      <Link
-                        className="text-black"
-                        href="https://kano-corp.tokyo/shop/"
-                      >
-                        {t("button13")}
-                      </Link>
-                    </div>
-                    <div className="border-l  border-black  lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center pt-[8px]">
-                      <Link
-                        className="text-black"
-                        href="https://tabelog.com/tokyo/A1313/A131302/13186205/"
-                      >
-                        {t("button14")}
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </ul>
-            </div>
-
-            <div className="dropdown dropdown-end">
-              <div
-                tabIndex={0}
-                role="button"
-                className="btn m-1 w-[85px] h-[75px] text-[8px] mt-[12px]"
-              >
-                {t("button2")}
-              </div>
-              <ul
-                tabIndex={0}
-                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[73px] p-2 shadow"
-              >
-                <div className="lg:pt-[7px]">
-                  <Link
-                    className="text-black lg:text-[13px] lg:p-4 flex items-center justify-center"
-                    href="/"
-                    locale="ja"
-                  >
-                    {t("button22")}
-                  </Link>
-
-                  <Link
-                    className="text-black text-[13px] lg:p-4 flex items-center justify-center"
-                    href="/"
-                    locale="en"
-                  >
-                    {t("button21")}
-                  </Link>
-
-                  <Link
-                    className="text-black text-[13px] lg:p-4 flex items-center justify-center"
-                    href="/"
-                    locale="zh"
-                  >
-                    {t("button23")}{" "}
-                  </Link>
-                </div>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+      )}
+    </>
   );
-}
+};
+
+export default Header;
