@@ -7,10 +7,11 @@
     "button12": "もんじゃの歴史",
     "button13": "アクセス",
     "button14": "予約",
-    "button2": "English/中文",
+    "button2": "Language",
     "button22": "Japanese",
     "button21": "English",
-    "button23": "中文"
+    "button23": "中文",
+    "button24": "한국어"
   },
 
   "Menubar": {
@@ -80,6 +81,7 @@
     "title8": "あわびのバターソテー",
     "title9": "釜揚げホタルイカのアヒージョ(バケット付き)",
     "title11": "にぼスパイシーもんじゃ",
+    "ingredients1": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter, pork",
     "title12": "スイートポテトのあんこ巻き",
     "title14": "つぶ貝じゃがバター",
     "title15": "真鯛の出汁しょうゆアクアパッツァ",

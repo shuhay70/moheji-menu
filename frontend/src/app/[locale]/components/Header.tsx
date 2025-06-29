@@ -1,5 +1,4 @@
 import React from "react";
-
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
@@ -8,7 +7,8 @@ export default function HomePage() {
   const t = useTranslations("Header");
 
   return (
-    <header className="lg:flex lg:justify-between w-full bg-headercolor2 lg:p-2 w-[390px]">
+    <header className="lg:flex lg:justify-between w-full bg-headercolor2 lg:p-2">
+      {/* PC版表示 */}
       <div className="hidden sm:block lg:flex lg:justify-between w-full">
         <div className="lg:flex lg:items-center">
           <Image
@@ -59,33 +59,38 @@ export default function HomePage() {
 
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn m-1 mt-[8px]">
-            Language
+            {t("button2")}
           </div>
           <ul
             tabIndex={0}
             className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
           >
-            <div className="lg:pt-[7px]">
-              <Link
-                className="text-black lg:text-[13px] lg:p-4 flex items-center justify-center"
-                href=""
-              >
-                日本語
+            <li>
+              <Link href="/" locale="ja">
+                {t("button22")}
               </Link>
-
-              <Link
-                className="text-black text-[13px] lg:p-4 flex items-center justify-center"
-                href="https://tsukishima-monja-koboreya.com/"
-              >
-                English
+            </li>
+            <li>
+              <Link href="/" locale="en">
+                {t("button21")}
               </Link>
-            </div>
+            </li>
+            <li>
+              <Link href="/" locale="zh">
+                {t("button23")}
+              </Link>
+            </li>
+            <li>
+              <Link href="/" locale="ko">
+                {t("button24")}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
 
-      {/* 以下モバイル */}
-      <div className="lg:hidden flex justify-between">
+      {/* モバイル版表示 */}
+      <div className="lg:hidden flex justify-between w-full">
         <div className="flex items-center">
           <Image
             className="py-[4px] pl-[4px] pr-[1px]"
@@ -107,47 +112,39 @@ export default function HomePage() {
               </div>
               <ul
                 tabIndex={0}
-                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[220px] p-2 shadow"
+                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-auto p-2 shadow"
               >
-                <div className="flex ">
-                  <div className="flex flex-col justify-items-center">
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center  lg:py-[0px] py-[8px] ">
-                      <Link className="text-black" href="/">
-                        {t("button10")}
-                      </Link>
-                    </div>
-                    <div className="flex border-l border-black lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] ">
-                      <Link className="text-black" href="/menu/monja">
-                        {t("button11")}
-                      </Link>
-                    </div>
-                    <div className="border-l  border-black lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] lg:pl-[0px] pl-[10px] ">
-                      <Link className="text-black" href="/history">
-                        {t("button12")}
-                      </Link>
-                    </div>
-                    <div className="border-l  border-black lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center lg:py-[0px] py-[8px] ">
-                      <Link
-                        className="text-black"
-                        href="https://kano-corp.tokyo/shop/"
-                      >
-                        {t("button13")}
-                      </Link>
-                    </div>
-                    <div className="border-l  border-black  lg:h-[35px] lg:mt-[10px]" />
-                    <div className="lg:p-4 lg:w-[110px] flex items-center justify-center pt-[8px]">
-                      <Link
-                        className="text-black"
-                        href="https://tabelog.com/tokyo/A1313/A131302/13186205/"
-                      >
-                        {t("button14")}
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+                <li>
+                  <Link className="text-black" href="/">
+                    {t("button10")}
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-black" href="/menu/monja">
+                    {t("button11")}
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-black" href="/history">
+                    {t("button12")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-black"
+                    href="https://kano-corp.tokyo/shop/"
+                  >
+                    {t("button13")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-black"
+                    href="https://tabelog.com/tokyo/A1313/A131302/13186205/"
+                  >
+                    {t("button14")}
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -161,33 +158,28 @@ export default function HomePage() {
               </div>
               <ul
                 tabIndex={0}
-                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-[100%] h-[73px] p-2 shadow"
+                className="dropdown-content menu bg-gray-200 rounded-box z-[1] w-auto p-2 shadow"
               >
-                <div className="lg:pt-[7px]">
-                  <Link
-                    className="text-black lg:text-[13px] lg:p-4 flex items-center justify-center"
-                    href="/"
-                    locale="ja"
-                  >
+                <li>
+                  <Link href="/" locale="ja">
                     {t("button22")}
                   </Link>
-
-                  <Link
-                    className="text-black text-[13px] lg:p-4 flex items-center justify-center"
-                    href="/"
-                    locale="en"
-                  >
+                </li>
+                <li>
+                  <Link href="/" locale="en">
                     {t("button21")}
                   </Link>
-
-                  <Link
-                    className="text-black text-[13px] lg:p-4 flex items-center justify-center"
-                    href="/"
-                    locale="zh"
-                  >
-                    {t("button23")}{" "}
+                </li>
+                <li>
+                  <Link href="/" locale="zh">
+                    {t("button23")}
                   </Link>
-                </div>
+                </li>
+                <li>
+                  <Link href="/" locale="ko">
+                    {t("button24")}
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
