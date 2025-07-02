@@ -274,6 +274,10 @@ export default function HomePage() {
                   <p>￥385</p>
                 </div>
                 <div className="flex justify-between lg:w-[470px] my-2">
+                  <p className=" font-bold  w-[70%]">{t("title55")}</p>
+                  <p>￥385</p>
+                </div>
+                <div className="flex justify-between lg:w-[470px] my-2">
                   <p className=" font-bold  w-[70%]">{t("title47")}</p>
                   <p>¥418</p>
                 </div>

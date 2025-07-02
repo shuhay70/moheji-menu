@@ -37,7 +37,7 @@ export default function HomePage() {
           <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[33%]">
             <Link
               className="flex justify-center items-center  lg:text-[20px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px] mx-[2px] text-[12px] h-[40px]"
-              href="/menu/monja"
+              href="/menu/topping"
             >
               {t("title4")}
             </Link>
@@ -45,7 +45,7 @@ export default function HomePage() {
           <div className="lg:w-[180px]  lg:flex lg:items-center lg:justify-center w-[33%]">
             <Link
               className="flex justify-center items-center  lg:text-[20px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px] pl-[10px] text-[12px] h-[40px]"
-              href="/menu/season"
+              href="/menu/teppan"
             >
               {t("title5")}
             </Link>
@@ -53,7 +53,7 @@ export default function HomePage() {
           <div className="lg:flex lg:w-[180px] lg:items-center lg:justify-center w-[33%]">
             <Link
               className="flex flex-col justify-center items-center  lg:text-[15px] lg:m-[3px] font-bold bg-gray-200 hover:bg-indigo-300 lg:h-[50px] lg:w-[250px]  pl-[1px] text-[12px] h-[40px]"
-              href="/menu/okonomiyaki"
+              href="/menu/drink"
             >
               {t("title6")}
             </Link>

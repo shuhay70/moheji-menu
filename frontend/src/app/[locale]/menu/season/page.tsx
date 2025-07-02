@@ -70,7 +70,7 @@ export default function HomePage() {
                   {t("title15")}
                 </p>
                 <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                  ¥
+                  ¥1408
                 </p>
               </div>
               <div className="flex  justify-between lg:justify-start">
@@ -78,7 +78,7 @@ export default function HomePage() {
                   {t("title16")}
                 </p>
                 <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                  ¥
+                  ¥858
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function HomePage() {
                   {t("title17")}
                 </p>
                 <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                  ¥
+                  ¥858
                 </p>
               </div>
               <div className="flex  justify-between lg:justify-start">
@@ -96,7 +96,7 @@ export default function HomePage() {
                   {t("title18")}
                 </p>
                 <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                  ¥
+                  ¥1958
                 </p>
               </div>
               <div className="flex  justify-between lg:justify-start">
@@ -104,7 +104,25 @@ export default function HomePage() {
                   {t("title19")}
                 </p>
                 <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
-                  ¥
+                  ¥1848
+                </p>
+              </div>
+            </div>
+            <div className="lg:flex">
+              <div className="flex  justify-between lg:justify-start">
+                <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                  {t("title21")}
+                </p>
+                <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                  ¥715
+                </p>
+              </div>
+              <div className="flex  justify-between lg:justify-start">
+                <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pt-[30px] py-[15px]">
+                  {t("title22")}
+                </p>
+                <p className="py-[15px] pl-[15px] lg:pt-[30px] lg:pl-[55px]">
+                  ¥990
                 </p>
               </div>
             </div>

@@ -108,7 +108,9 @@
     "title18": "Summer Vegetable and Chicken Keema Curry Monjayaki(夏野菜チキンキーマカレーもんじゃ)",
     "ingredients6": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter, pork",
     "title19": "Monjayaki with Boiled Whitebait, Plum, and perilla(釜揚げしらすと梅しそもんじゃ)",
-    "ingredients7": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter, pork"
+    "ingredients7": "Ingredients: cabbage, tempura crumbs, sakura shrimp, egg, batter, pork",
+    "title21": "Seasonal Hebesu Sour (へべすサワー)",
+    "title22": "Seasonal Sake: Senkin Kabutomushi (かぶとむし)"
   },
 
   "Okonomiyaki": {
@@ -441,7 +443,8 @@
     "ingredients53": "Ingredients: Mochi, red bean paste, fresh cream, butter",
     "title54": "Ice cream topping ",
     "price54": "220 Yen",
-    "ex54": "（Vanilla・Matcha）"
+    "ex54": "（Vanilla・Matcha）",
+    "title55": "Apple Juice (アップルジュース)"
   },
 
   "History": {
