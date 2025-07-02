@@ -17,12 +17,12 @@ export default function Footer() {
             alt="Logo"
           ></Image>
         </div>
-        <div className="lg:pt-[55px] lg:pl-[5px]">
+        <div className="lg:pt-[55px] lg:pl-[5px] flex flex-col items-cenetr text-center">
           <h1 className="text-white  lg:pb-[10px]"> {t("title1")}</h1>
           <p className="text-white  lg:w-[330px] w-[290px]">{t("ex11")}</p>
         </div>
         <div className="lg:border-l  border-white lg:h-[280px]  lg:mt-[30px]  lg:ml-[70px]  lg:mr-[70px] h-[5px] border-t my-[20px] mx-[10px]" />
-        <div className=" lg:pt-[55px]  lg:pl-[5px]">
+        <div className=" lg:pt-[55px]  lg:pl-[5px] flex flex-col items-cenetr text-center">
           <h1 className="text-white  lg:pb-[10px]">{t("title2")}</h1>
           <p className="text-white  lg:w-[530px]  w-[290px]">{t("ex21")}</p>
           <p className="text-white  lg:w-[530px]  w-[290px]">{t("ex22")}</p>

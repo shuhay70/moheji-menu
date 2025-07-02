@@ -15,6 +15,17 @@
     "button25": "Close"
   },
 
+  "Top": {
+    "title1": "＜Our Commitment＞",
+    "ex1": "Our restaurant was established in 1871 and is directly operated by a seafood wholesaler from Toyosu Market.The soup base for our monjayaki is made with seafood and chicken broth.All monjayaki and okonomiyaki  are cooked by our staff right in front of you.",
+    "button1": "Menus",
+    "ex2": "Here, we introduce the history of monjayaki from its origins to the present day, explain why the 'dote' (dough ring) is made, and show you how to cook it.",
+    "button2": "About Monja",
+    "ex3": " We are open daily from 11:00 to 22:00. For reservations, please call us via Tabelog. Please note that we generally do not accept reservations for Saturdays and Sundays.",
+    "button3": "Reserve",
+    "button4": "Locations"
+  },
+
   "Menubar": {
     "title1": "Monja",
     "title2": "Season Original",
