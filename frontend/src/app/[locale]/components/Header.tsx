@@ -99,7 +99,7 @@ const Header = () => {
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content menu bg-gray-100 text-black z-[1] w-[100px] p-2 shadow mt-[5px]"
+              className="dropdown-content menu bg-gray-100 text-black z-[1] w-[100px] p-2 shadow"
             >
               <li>
                 <Link href="/" locale="ja">

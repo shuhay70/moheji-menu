@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <main>
       <div
-        className="scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll  bg-white"
+        className="pt-[95px] scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll  bg-white"
         style={{
           backgroundImage: "url('/image/backimg1.jpg')",
           backgroundSize: "cover",
