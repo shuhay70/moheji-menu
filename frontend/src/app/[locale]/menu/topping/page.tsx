@@ -4,11 +4,7 @@ import type { Metadata } from "next";
 
 // generateMetadata関数を追加
 // generateMetadata関数の中でクライアントサイド専用のフック（Hook）であるuseTranslationsを呼び出すことはできない。
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
+export async function generateMetadata({}): Promise<Metadata> {
   return {
     title: "トッピング", // 例として「明太子もちもんじゃ」
     description: `トッピングの紹介ページです。`,
