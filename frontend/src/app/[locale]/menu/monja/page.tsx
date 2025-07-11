@@ -1,6 +1,25 @@
 import Menubar from "../../components/Menubar";
-
+//next-intlライブラリでは、サーバーサイドで使う関数とクライアントサイドで使う関数で、インポート元が分かれている。
+//useTranslations: クライアントサイド（ブラウザ側）で使うフック。'next-intl'からインポート。
+//getTranslations: サーバーサイドで使う関数。'next-intl/server' からインポートする必要があり。
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+// generateMetadata関数を追加
+// generateMetadata関数の中でクライアントサイド専用のフック（Hook）であるuseTranslationsを呼び出すことはできない。
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Monja" });
+
+  return {
+    title: "もんじゃ", // 例として「明太子もちもんじゃ」
+    description: `もんじゃの紹介ページです。`,
+  };
+}
 
 export default function HomePage() {
   const t = useTranslations("Monja");

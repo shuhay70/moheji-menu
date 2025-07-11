@@ -1,4 +1,21 @@
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+// generateMetadata関数を追加
+// generateMetadata関数の中でクライアントサイド専用のフック（Hook）であるuseTranslationsを呼び出すことはできない。
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "History" });
+
+  return {
+    title: "もんじゃの歴史", // 例として「明太子もちもんじゃ」
+    description: `もんじゃの歴史を紹介するページです。`,
+  };
+}
 
 export default function HomePage() {
   const t = useTranslations("History");
