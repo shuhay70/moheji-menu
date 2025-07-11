@@ -3,7 +3,7 @@ import Menubar from "../../components/Menubar";
 //useTranslations: クライアントサイド（ブラウザ側）で使うフック。'next-intl'からインポート。
 //getTranslations: サーバーサイドで使う関数。'next-intl/server' からインポートする必要があり。
 import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
+// import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 
 // generateMetadata関数を追加
@@ -13,8 +13,6 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace: "Monja" });
-
   return {
     title: "もんじゃ", // 例として「明太子もちもんじゃ」
     description: `もんじゃの紹介ページです。`,
