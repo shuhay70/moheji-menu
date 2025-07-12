@@ -1,5 +1,22 @@
 import Menubar from "../../components/Menubar";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+// generateMetadata関数を追加
+// generateMetadata関数の中でクライアントサイド専用のフック（Hook）であるuseTranslationsを呼び出すことはできない。
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Topping" });
+
+  return {
+    title: "トッピング", // 例として「明太子もちもんじゃ」
+    description: `トッピングの紹介ページです。`,
+  };
+}
 
 export default function HomePage() {
   const t = useTranslations("Topping");
@@ -17,7 +34,7 @@ export default function HomePage() {
         <Menubar />
         <div className="w-[80%] bg-white p-[25px] pb-[25px] mb-[30px] mx-auto">
           <div className="font-bold flex justify-center  text-[20px]">
-            ＜トッピング＞
+            {t("title0")}
           </div>
           <div className="border-t border-yellow-700 lg:my-4"></div>
           <div className="lg:flex lg:justify-between lg:p-[15px]">

@@ -26,7 +26,7 @@ export default function Footer() {
           <h1 className="text-white  lg:pb-[10px]">{t("title2")}</h1>
           <p className="text-white  lg:w-[530px]  w-[290px]">{t("ex21")}</p>
           <p className="text-white  lg:w-[530px]  w-[290px]">{t("ex22")}</p>
-          <div className=" lg:ml-[290px] lg:mt-[20px] mt-[10px] mb-[20px]">
+          <div className=" lg:ml-[290px] lg:mt-[20px] mt-[10px] mb-[80px]">
             <Link className="text-red-200 " href="https://kano-corp.tokyo/">
               {t("ex23")}
             </Link>

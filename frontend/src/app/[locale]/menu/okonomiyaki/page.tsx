@@ -1,5 +1,22 @@
 import Menubar from "../../components/Menubar";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+// generateMetadata関数を追加
+// generateMetadata関数の中でクライアントサイド専用のフック（Hook）であるuseTranslationsを呼び出すことはできない。
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Okonomiyaki" });
+
+  return {
+    title: "お好み焼き", // 例として「明太子もちもんじゃ」
+    description: `お好み焼きの紹介ページです。`,
+  };
+}
 
 export default function HomePage() {
   const t = useTranslations("Okonomiyaki");
