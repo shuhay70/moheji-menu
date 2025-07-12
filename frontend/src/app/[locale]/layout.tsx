@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     "Tsukishima",
     "海鮮",
   ],
-  // OGP設定 (SNSでシェアされた際に表示される情報)
+  // OGP設定 (SNSでシェアされた際に表示される情報.)
   openGraph: {
     title: "もへじ はなれ",
     description:
