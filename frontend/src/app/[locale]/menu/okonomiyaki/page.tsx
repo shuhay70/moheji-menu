@@ -1,6 +1,5 @@
 import Menubar from "../../components/Menubar";
 import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 
 // generateMetadata関数を追加
@@ -10,8 +9,6 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace: "Okonomiyaki" });
-
   return {
     title: "お好み焼き", // 例として「明太子もちもんじゃ」
     description: `お好み焼きの紹介ページです。`,
