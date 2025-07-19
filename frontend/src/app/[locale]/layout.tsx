@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "明治四年創業、豊洲水産仲卸直営のもんじゃ焼き店「もへじ はなれ」。豊洲直送の新鮮な海鮮を使ったもんじゃ焼き、お好み焼き、鉄板焼きをお楽しみください。",
 
   verification: {
-    google: "phiRvAq4rqcjhQEm5NyNRGt35lXqU_i_ks3OJwZh5fY",
+    google: "iRcsDZ-VW-C9YwnpoTypRvdbSTGriJUWfmB_BbsV0M8",
   },
 
   keywords: [
