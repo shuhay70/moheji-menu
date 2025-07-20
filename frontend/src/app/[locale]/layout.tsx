@@ -53,12 +53,12 @@ export const metadata: Metadata = {
     description:
       "明治四年創業 豊洲市場仲卸直営。新鮮な海鮮を使ったもんじゃ焼きが自慢です。",
     // VercelにデプロイしたサイトのトップページのURLをここに入れる
-    url: "https://moheji-liard.vercel.app/ja",
+    url: "https://moheji-liard.vercel.app",
     siteName: "もへじ はなれ",
     // トップページで使われている画像のURLを入れる
     images: [
       {
-        url: "https://your-deployed-site-url.vercel.app/image/logo4.jpg",
+        url: "https://moheji-liard.vercel.app/image/logo4.jpg",
         width: 1200,
         height: 630,
       },

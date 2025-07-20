@@ -3,7 +3,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://github.com/shuhay70/moheji-menu.git"; // 自分のサイトのURL
+  const baseUrl = "https://moheji-liard.vercel.app"; // 自分のサイトのURL
 
   // 固定ページ
   const staticRoutes = [
