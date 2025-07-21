@@ -1,28 +1,39 @@
-// /frontend/src/app/sitemap.ts
+// frontend/src/app/sitemap.ts
 
 import { MetadataRoute } from "next";
 
+const baseUrl = "https://moheji-liard.vercel.app";
+
+// サイトの言語を直接定義 (importを不要にするため)
+const locales = ["ja", "en", "zh", "ko"];
+
+// サイト内に存在するページのパスを列挙
+const routes = [
+  "/",
+  "/history",
+  "/menu/monja",
+  "/menu/okonomiyaki",
+  "/menu/teppan",
+  "/menu/topping",
+  "/menu/season",
+  "/menu/drink",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://moheji-liard.vercel.app"; // 自分のサイトのURL
+  const sitemapEntries: MetadataRoute.Sitemap = [];
 
-  // 固定ページ
-  const staticRoutes = [
-    "",
-    "/history",
-    "/menu/monja",
-    "/menu/season",
-    "/menu/okonomiyaki",
-    "/menu/topping",
-    "/menu/teppan",
-    "/menu/drink",
-  ].map((route) => ({
-    url: `${baseUrl}/${route}`,
-    lastModified: new Date(),
-  }));
+  // 各ページと言語の組み合わせでURLを生成
+  routes.forEach((route) => {
+    // localeの型を明示的に指定します
+    locales.forEach((locale: string) => {
+      // トップページ（'/'）の場合は、パスを空に
+      const path = route === "/" ? "" : route;
+      sitemapEntries.push({
+        url: `${baseUrl}/${locale}${path}`,
+        lastModified: new Date(),
+      });
+    });
+  });
 
-  // ここで動的なページ（例：各もんじゃメニューの詳細ページなど）の
-  // URLリストを生成することも可能。
-  // 今の構成では各メニューは1ページにまとまっているから、上記のみで大丈夫。
-
-  return staticRoutes;
+  return sitemapEntries;
 }
