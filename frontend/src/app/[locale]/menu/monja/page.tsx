@@ -36,7 +36,7 @@ export default function HomePage() {
                 <img
                   src="/image/menmochi.jpg"
                   className="lg:h-[280px] lg:w-[280px]"
-                  alt="mennmochi"
+                  alt="明太子もちもんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -58,7 +58,7 @@ export default function HomePage() {
                 <img
                   src="/image/kaisen.jpg"
                   className="lg:h-[280px] lg:w-[280px]"
-                  alt="mennmochi"
+                  alt="海鮮もんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -81,7 +81,7 @@ export default function HomePage() {
                 <img
                   src="/image/ikasumi.jpg"
                   className="lg:h-[280px] lg:w-[280px]"
-                  alt="mennmochi"
+                  alt="イカ墨もんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -106,7 +106,7 @@ export default function HomePage() {
                 <img
                   src="/image/mensiso.jpg"
                   className="lg:h-[280px] lg:w-[280px]"
-                  alt="mennmochi"
+                  alt="明太子しそもんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -129,7 +129,7 @@ export default function HomePage() {
                 <img
                   src="/image/butakimu.jpg"
                   className="lg:h-[280px] lg:w-[280px] "
-                  alt="mennmochi"
+                  alt="豚キムチもんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -152,7 +152,7 @@ export default function HomePage() {
                 <img
                   src="/image/umetako.jpg"
                   className="lg:h-[280px] lg:w-[280px]"
-                  alt="mennmochi"
+                  alt="梅タコもんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -177,7 +177,7 @@ export default function HomePage() {
                 <img
                   src="/image/oyako.jpg"
                   className="lg:h-[280px] lg:w-[280px]"
-                  alt="mennmochi"
+                  alt="親子もんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -200,7 +200,7 @@ export default function HomePage() {
                 <img
                   src="/image/gyusuzi.jpg"
                   className="lg:h-[280px] lg:w-[280px] "
-                  alt="mennmochi"
+                  alt="牛すじカレーもんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -223,7 +223,7 @@ export default function HomePage() {
                 <img
                   src="/image/butanira.jpg"
                   className="lg:h-[280px] lg:w-[280px] "
-                  alt="mennmochi"
+                  alt="豚ニラ玉もんじゃ"
                 />
               </div>
               <div className="flex justify-between">
@@ -248,7 +248,7 @@ export default function HomePage() {
                 <img
                   src="/image/gomoku.jpg"
                   className="lg:h-[280px] lg:w-[280px] "
-                  alt="mennmochi"
+                  alt="五目もんじゃ"
                 />
               </div>
               <div className="flex justify-between">

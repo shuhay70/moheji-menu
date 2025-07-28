@@ -14,7 +14,7 @@ export default function Footer() {
             src="/image/logo1.jpg"
             width={300}
             height={300}
-            alt="Logo"
+            alt="もへじのロゴ"
           ></Image>
         </div>
         <div className="lg:pt-[55px] lg:pl-[5px] flex flex-col items-cenetr text-center">

@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className="relative w-full max-w-3xl mx-auto ">
         <img
           src="/image/backimg2.jpg"
-          alt="f"
+          alt="背景画像"
           className="mt-[70px] w-full h-full object-cover block"
         />
         <div className="absolute bottom-0 left-0 w-full h-[60%] bg-gradient-to-t from-black to-transparent pointer-events-none" />
@@ -28,7 +28,7 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
-      <img src="/image/dote.jpg" alt="f" className="" />
+      <img src="/image/dote.jpg" alt="背景画像２" className="" />
       <p className="flex justify-center text-center pt-[50px] px-[30px]">
         {t("ex2")}
       </p>
@@ -52,7 +52,7 @@ export default function HomePage() {
           もんじゃの作り方
         </Link>
       </div> */}
-      <img src="/image/tsukurikata.jpg" alt="f" className="" />
+      <img src="/image/tsukurikata.jpg" alt="背景画像３" className="" />
       <p className="flex justify-center text-center pt-[50px] px-[30px]">
         {t("ex3")}
       </p>
