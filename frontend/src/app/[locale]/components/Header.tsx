@@ -27,7 +27,7 @@ const Header = () => {
         <Link href="/" className="h-full flex items-center">
           <img
             src="/image/logo4.jpg"
-            alt="logo"
+            alt="もへじ ロゴ"
             className="h-full w-auto object-contain"
           />
         </Link>
@@ -93,7 +93,7 @@ const Header = () => {
             >
               <img
                 src="/image/tikyugi.jpeg"
-                alt="f"
+                alt="地球儀マーク"
                 className="h-[35px] w-[35px]"
               />
             </div>

@@ -78,11 +78,57 @@ function RootLayout({
 }) {
   const messages = useMessages(); // messagesを取得
 
+  //構造化データ」を追加してGoogleに店舗情報を伝える⬇️
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    name: "もへじ はなれ",
+    image: "https://moheji-liard.vercel.app/image/logo4.jpg",
+    url: "https://moheji-liard.vercel.app",
+    telephone: "03-6312-8983",
+    priceRange: "¥¥¥",
+    servesCuisine: "もんじゃ焼き、お好み焼き、焼きそば",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "３丁目６番地４号",
+      addressLocality: "中央区",
+      addressRegion: "東京都",
+      postalCode: "104-0052",
+      addressCountry: "JP",
+    },
+    geo: {
+      //緯度と経度を指定
+      "@type": "GeoCoordinates",
+      latitude: 35.663572677120925,
+      longitude: 139.78044518863985,
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ],
+        opens: "11:00",
+        closes: "23:00",
+      },
+    ],
+  };
+  // scriptタグをbodyの直下に追加
   return (
     <html lang={locale}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100%]`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {/* NextIntlClientProviderでラップする */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />

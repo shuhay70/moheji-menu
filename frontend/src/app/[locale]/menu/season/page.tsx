@@ -32,7 +32,7 @@ export default function HomePage() {
                 <img
                   src="/image/IMG_3171.jpg"
                   className="lg:h-[280px] lg:w-[280px] lg:p-[25px] "
-                  alt="mennmochi"
+                  alt="イカの丸焼き"
                 />
 
                 <div className="flex justify-between lg:justify-start">

@@ -33,7 +33,7 @@ export default function HomePage() {
             <img
               src="/image/rekisi.jpg"
               className="lg:h-[280px] lg:w-[280px] lg:p-[25px] lg:pt-[0px] pt-[15px]"
-              alt="mennmochi"
+              alt="もんじゃを焼いている昔の画像"
             />
           </div>
 
@@ -49,7 +49,7 @@ export default function HomePage() {
             <img
               src="/image/dote.jpg"
               className="lg:h-[280px] lg:w-[280px] lg:p-[25px] lg:pt-[0px] pt-[15px] "
-              alt="mennmochi"
+              alt="スタッフが土手を作っている画像"
             />
           </div>
           <div className="lg:w-[1100px] border-t border-gray-300 lg:my-[40px] my-[25px]"></div>
@@ -71,7 +71,7 @@ export default function HomePage() {
             <img
               src="/image/tsukurikata.jpg"
               className="lg:h-[280px] lg:w-[280px] lg:p-[25px] lg:pt-[0px] pt-[15px] items-center"
-              alt="mennmochi"
+              alt="スタッフがもんじゃを焼いている画像"
             />
           </div>
         </div>
