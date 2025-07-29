@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 
 export default function HomePage() {
   const t = useTranslations("Top");
@@ -7,10 +8,14 @@ export default function HomePage() {
   return (
     <main className="bg-gray-300 w-full">
       <div className="relative w-full max-w-3xl mx-auto ">
-        <img
+        {/* priorityというプロパティを追加するだけで、特定の画像を優先的に読み込ませ、このLCPを劇的に改善できる。*/}
+        <Image
           src="/image/backimg2.jpg"
           alt="背景画像"
-          className="mt-[70px] w-full h-full object-cover block"
+          width={1200}
+          height={800}
+          className="mt-[70px] w-full h-auto object-cover block"
+          priority={true}
         />
         <div className="absolute bottom-0 left-0 w-full h-[60%] bg-gradient-to-t from-black to-transparent pointer-events-none" />
       </div>
