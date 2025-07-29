@@ -25,6 +25,18 @@ export const metadata: Metadata = {
   description:
     "明治四年創業、豊洲水産仲卸直営のもんじゃ焼き店「もへじ はなれ」。豊洲直送の新鮮な海鮮を使ったもんじゃ焼き、お好み焼き、鉄板焼きをお楽しみください。",
 
+  // hreflang設定を追加
+  alternates: {
+    canonical: "https://moheji-liard.vercel.app/ja", // 日本語ページを基準とする
+    languages: {
+      "ja-JP": "https://moheji-liard.vercel.app/ja",
+      "en-US": "https://moheji-liard.vercel.app/en",
+      "zh-CN": "https://moheji-liard.vercel.app/zh",
+      "ko-KR": "https://moheji-liard.vercel.app/ko",
+      "x-default": "https://moheji-liard.vercel.app/ja", // 言語が特定できない場合のデフォルト
+    },
+  },
+
   verification: {
     google: "iRcsDZ-VW-C9YwnpoTypRvdbSTGriJUWfmB_BbsV0M8",
   },
