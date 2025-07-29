@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       // disallow: '/private/', // もしクロールしてほしくないページがあれば指定
     },
-    sitemap: "https://moheji-liard.vercel.app/sitemap.xml",
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
